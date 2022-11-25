@@ -9,7 +9,7 @@ export default function Card() {
             <div className={stylesCard.infoKiosk}>
                 <div className={stylesCard.stat}></div>
                 <div className={stylesCard.info}>
-                    <h3 className={stylesCard.name}>5-й эллемент</h3>
+                    <h3 className={stylesCard.name}>Имя</h3>
                     <p className={stylesCard.description}>Екатеринубрг,Радищева 28, 621</p>
                 </div></div>
             <p className={stylesCard.status}>В сети</p>
