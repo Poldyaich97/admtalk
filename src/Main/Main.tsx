@@ -84,12 +84,18 @@ const requestOptions = {
   method: 'GET',
   headers: myHeaders
 };
-async function getData() {
-  const data = await fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
-  const content = await data.json()
-  // console.log(content.kiosks[1])
+
+const data = fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
+.then(res => (res.json()))
+.then(data =>  console.log(data))
+
+// async function getData() {
+//   const data = await fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
+//   const content = await data.json().then(result => console.log(result))
+//   // console.log(content)
+//   // console.log(content.kiosks[1].configuration)
 
 
 
-}
-getData();
+// }
+// getData();
