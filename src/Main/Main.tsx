@@ -76,15 +76,18 @@ function Users() {
 
 
 const myHeaders = new Headers();
-myHeaders.append("X-Auth-Token", "хуй-вас");
+myHeaders.append("X-Auth-Token", "");
 
 const requestOptions = {
   method: 'GET',
   headers: myHeaders,
-  redirect: 'follow'
+  // redirect: 'follow'
 };
 
-fetch("https://kontur.ktalk.ru/api/kiosk")
+const data = fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
+
+
+console.log(data);
