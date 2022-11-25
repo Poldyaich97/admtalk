@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import containerStyle from "../Container/Container.module.css"
 import { Select } from "@skbkontur/react-ui/cjs/components/Select/Select";
