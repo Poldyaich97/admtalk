@@ -48,6 +48,7 @@ function Home() {
       <Select<string> items={items} value={value} onValueChange={setValue} search />
       <div className={styles.info}>
         <p className={styles.name}>Имя киоска</p>
+        <p>Статус киоска</p>
         <p>Версия</p>
         <p>Имя ПК</p>
       </div>
@@ -73,3 +74,5 @@ function Users() {
       <h2>Че-то там еще</h2>
       <p>Пока тут ничего нет</p></div>)
 }
+
+
