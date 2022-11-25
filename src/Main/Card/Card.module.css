@@ -5,11 +5,41 @@
     padding: 16px 8px;
 }
 
-.name {
-    margin: 0;
-    margin-bottom: 10px;
+.stat {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 12px;
+    min-width: 8px;
+    background-color: green;
 }
 
-.wrapper p {
+.infoKiosk {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-right: 50px;
+}
+
+.name {
     margin: 0;
+    /* margin-bottom: 10px; */
+    width: 250px;
+}
+
+.status {
+    margin-right: 50px;
+}
+
+.namePC,
+.version {
+    margin: 0;
+    font-size: 18px;
+}
+
+.description {
+    margin: 0;
+    font-size: 14px;
 }
