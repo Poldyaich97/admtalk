@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import containerStyle from "../Container/Container.module.css"
 import { Select } from "@skbkontur/react-ui/cjs/components/Select/Select";
+import { useEffect } from "react";
 
 
 export default function Header() {
@@ -42,21 +43,42 @@ export default function Header() {
 function Home() {
   const [value, setValue] = React.useState("");
   const items = ['Екатеринбург', 'Челябинск', 'Москва', 'Санкт Петербург'];
-  return (
-    <div className={styles.wrapper}>
-      <Select<string> items={items} value={value} onValueChange={setValue} search />
-      <div className={styles.info}>
-        <p className={styles.name}>Имя киоска</p>
-        <p>Статус киоска</p>
-        <p>Версия</p>
-        <p>Имя ПК</p>
-      </div>
-      <div className={styles.line}></div>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>)
+  const [data, setData] = React.useState<{ name: string; description: string; machineName: string; version: string }[]>();
+  useEffect(() => {
+    async function main() {
+      const kiosk = await getData();
+      setData(kiosk.kiosks);
+    }
+    main();
+  }, [])
+  console.log("data", data);
+
+  if (!data) {
+    return <div>Загружается</div>
+  } else {
+
+
+    return (
+      <div className={styles.wrapper}>
+        <Select<string> items={items} value={value} onValueChange={setValue} search />
+        <div className={styles.info}>
+          <p className={styles.name}>Имя киоска</p>
+          <p>Статус киоска</p>
+          <p>Версия</p>
+          <p>Имя ПК</p>
+        </div>
+        <div className={styles.line}></div>
+        {data.map((element, pos) => (
+          <div key={pos}>
+            <Card
+              name={element.name}
+              description={element.description}
+              machineName={element.machineName}
+              version={element.version} />
+          </div>
+        ))}
+      </div>)
+  }
 }
 
 function About() {
@@ -84,18 +106,8 @@ const requestOptions = {
   method: 'GET',
   headers: myHeaders
 };
-
-const data = fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
-.then(res => (res.json()))
-.then(data =>  console.log(data))
-
-// async function getData() {
-//   const data = await fetch("https://kontur.ktalk.ru/api/kiosk", requestOptions)
-//   const content = await data.json().then(result => console.log(result))
-//   // console.log(content)
-//   // console.log(content.kiosks[1].configuration)
-
-
-
-// }
-// getData();
+async function getData() {
+  const data = await fetch("https://kontur.ktalk.ru/api/kiosk?pageSize=1000", requestOptions)
+  const content = await data.json()
+  return content;
+}
