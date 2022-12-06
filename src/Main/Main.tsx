@@ -41,9 +41,9 @@ export default function Header() {
 }
 
 function Home() {
-  const [value, setValue] = React.useState("");
-  const items = ['Екатеринбург', 'Челябинск', 'Москва', 'Санкт Петербург'];
-  const [data, setData] = React.useState<{ name: string; description: string; machineName: string; version: string }[]>();
+  const [filter, setFilter] = React.useState("");
+  const items = ['', 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт Петербург'];
+  const [data, setData] = React.useState<{ title: string; description: string | undefined; machineName: string; version: string }[]>();
   useEffect(() => {
     async function main() {
       const kiosk = await getData();
@@ -51,27 +51,30 @@ function Home() {
     }
     main();
   }, [])
-  console.log("data", data);
+  console.log(filter)
 
   if (!data) {
     return <div>Загружается</div>
   } else {
-
-
     return (
       <div className={styles.wrapper}>
-        <Select<string> items={items} value={value} onValueChange={setValue} search />
+        <Select<string> items={items} value={filter} onValueChange={setFilter} search />
         <div className={styles.info}>
           <p className={styles.name}>Имя киоска</p>
-          <p>Статус киоска</p>
           <p>Версия</p>
           <p>Имя ПК</p>
         </div>
         <div className={styles.line}></div>
-        {data.map((element, pos) => (
+        {data.filter(e => {
+          if (e.description == undefined) {
+            return false
+          } else {
+            return e.description.indexOf(filter) != -1
+          }
+        }).map((element, pos) => (
           <div key={pos}>
             <Card
-              name={element.name}
+              name={element.title}
               description={element.description}
               machineName={element.machineName}
               version={element.version} />
@@ -98,7 +101,9 @@ function Users() {
 
 
 const myHeaders = new Headers();
-myHeaders.append("X-Auth-Token", "");
+
+myHeaders.append("X-Auth-Token", process.env.REACT_APP_KEY!);
+
 
 
 

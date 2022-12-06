@@ -5,6 +5,7 @@
     padding: 16px 8px;
 }
 
+
 .stat {
     width: 8px;
     height: 8px;
@@ -20,17 +21,18 @@
 }
 
 .info {
-    margin-right: 50px;
+    width: 300px;
 }
 
 .name {
     margin: 0;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     width: 250px;
 }
 
-.status {
-    margin-right: 50px;
+
+.namePC {
+    width: 135px;
 }
 
 .namePC,
