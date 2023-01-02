@@ -1,5 +1,7 @@
 .main {
     padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .mainBg {
@@ -35,4 +37,8 @@
 
 .wrapper {
     padding: 0px 20px;
+}
+
+.select {
+    width: 100px;
 }

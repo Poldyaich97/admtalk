@@ -8,7 +8,8 @@ import {
   Route,
 } from "react-router-dom";
 import containerStyle from "../Container/Container.module.css"
-import { Select } from "@skbkontur/react-ui/cjs/components/Select/Select";
+
+import { ThemeContext, DARK_THEME, Button, Select } from '@skbkontur/react-ui';
 import { useEffect } from "react";
 
 
@@ -42,7 +43,7 @@ export default function Header() {
 
 function Home() {
   const [filter, setFilter] = React.useState("");
-  const items = ['', 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт Петербург'];
+  const items = ['', 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт-Петербург', 'Воронеж', 'Волгоград'];
   const [data, setData] = React.useState<{ title: string; description: string | undefined; machineName: string; version: string }[]>();
   useEffect(() => {
     async function main() {
@@ -51,36 +52,40 @@ function Home() {
     }
     main();
   }, [])
-  console.log(filter)
 
   if (!data) {
     return <div>Загружается</div>
   } else {
     return (
-      <div className={styles.wrapper}>
-        <Select<string> items={items} value={filter} onValueChange={setFilter} search />
+      < div className={styles.wrapper} >
+        <ThemeContext.Provider value={DARK_THEME}>
+          <Select<string> className={styles.select} items={items} value={filter} onValueChange={setFilter} search />
+        </ThemeContext.Provider>
         <div className={styles.info}>
           <p className={styles.name}>Имя киоска</p>
           <p>Версия</p>
           <p>Имя ПК</p>
         </div>
         <div className={styles.line}></div>
-        {data.filter(e => {
-          if (e.description == undefined) {
-            return false
-          } else {
-            return e.description.indexOf(filter) != -1
-          }
-        }).map((element, pos) => (
-          <div key={pos}>
-            <Card
-              name={element.title}
-              description={element.description}
-              machineName={element.machineName}
-              version={element.version} />
-          </div>
-        ))}
-      </div>)
+        {
+          data.filter(e => {
+            if (e.description == undefined) {
+              e.description = ""
+              return e.description.indexOf(filter) != -1
+            } else {
+              return e.description.indexOf(filter) != -1
+            }
+          }).map((element, pos) => (
+            <div key={pos}>
+              <Card
+                name={element.title || element.machineName}
+                description={element.description || ""}
+                machineName={element.machineName}
+                version={element.version} />
+            </div>
+          ))
+        }
+      </div >)
   }
 }
 

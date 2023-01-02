@@ -18,6 +18,7 @@
 .infoKiosk {
     display: flex;
     align-items: center;
+    margin-right: 50px;
 }
 
 .info {

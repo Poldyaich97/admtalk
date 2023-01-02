@@ -1702,10 +1702,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@skbkontur/react-ui@^4.7.0":
-  version "4.9.0"
-  resolved "https://registry.npmmirror.com/@skbkontur/react-ui/-/react-ui-4.9.0.tgz#4990463b7b8f1f14c7d5c27e35f973b5aca3395e"
-  integrity sha512-rDGuDLq+UF9F+oE32dF5X2Jo45fMQwv+RkkKTcsvYxY6Jbue9RJlckn4M6ZYmCyTotikJhErH0Pdr/l6ENNkng==
+"@skbkontur/react-ui@^4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@skbkontur/react-ui/-/react-ui-4.10.0.tgz#894cc02e0fc0ed1045bda8986a572bd32a7fdecb"
+  integrity sha512-56x9DKmhpFtbkzzAa0R9YM6BFPDkNQ+w3ph93rnF1OhgVnAJMwuP9n11GhTvWsORMzQwCSZuvSpmOrXbUuExNQ==
   dependencies:
     "@babel/runtime" "7.16.5"
     "@emotion/css" "^11.7.1"

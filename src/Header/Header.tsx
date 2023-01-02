@@ -2,12 +2,11 @@
 
 import React from "react";
 import styles from "./Header.module.css";
-import containStyles from "../Container/Container.module.css"
 
 export default function Header() {
     return (
         <header className={styles.header}>
-            <div className={containStyles.container}>
+            <div className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.logo}>
                         <a href="#"><svg _ngcontent-rix-c118="" height="20" width="32" xmlns="http://www.w3.org/2000/svg">
