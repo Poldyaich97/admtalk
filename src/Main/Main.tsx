@@ -2,6 +2,7 @@ import styles from "./Main.module.css";
 import React from "react";
 import Navigation from "./Navigation/Navigation";
 import Card from "./Card/Card";
+import Menu from "./Menu/Menu";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,11 +27,14 @@ export default function Header() {
                 <Route path="/about">
                   <About />
                 </Route>
+                <Route path="/menu">
+                  <MenuCard />
+                </Route>
                 <Route path="/users">
                   <Users />
                 </Route>
                 <Route path="/">
-                  <Home />
+                  <Kiosks />
                 </Route>
               </Switch>
             </div>
@@ -41,7 +45,7 @@ export default function Header() {
   );
 }
 
-function Home() {
+function Kiosks() {
   const [filter, setFilter] = React.useState("");
   const items = ['', 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт-Петербург', 'Воронеж', 'Волгоград'];
   const [data, setData] = React.useState<{ title: string; description: string | undefined; machineName: string; version: string }[]>();
@@ -101,9 +105,16 @@ function Users() {
   return (
     <div >
       <h2>Че-то там еще</h2>
-      <p>Пока тут ничего нет</p></div>)
+      <p>Пока тут ничего нет</p>
+    </div>
+  )
 }
 
+function MenuCard() {
+  return (
+    <Menu />
+  )
+}
 
 const myHeaders = new Headers();
 

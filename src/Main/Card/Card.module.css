@@ -5,6 +5,10 @@
     padding: 16px 8px;
 }
 
+.wrapper:hover {
+    background-color: #16161626;
+}
+
 
 .stat {
     width: 8px;
