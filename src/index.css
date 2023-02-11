@@ -9,7 +9,7 @@ body {
   color: #ffffffcc
 }
 
-a{
-  color: #ffffffcc
+a {
+  color: #ffffffcc;
+  text-decoration: none;
 }
-

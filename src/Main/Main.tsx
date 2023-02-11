@@ -2,7 +2,7 @@ import styles from "./Main.module.css";
 import React from "react";
 import Navigation from "./Navigation/Navigation";
 import Card from "./Card/Card";
-import Menu from "./Menu/Menu";
+import Kiosk from "./Kiosk/Kiosk";
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import containerStyle from "../Container/Container.module.css"
 
-import { ThemeContext, DARK_THEME, Button, Select } from '@skbkontur/react-ui';
+import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui';
 import { useEffect } from "react";
 
 
@@ -27,14 +27,16 @@ export default function Header() {
                 <Route path="/about">
                   <About />
                 </Route>
-                <Route path="/menu">
-                  <MenuCard />
-                </Route>
                 <Route path="/users">
                   <Users />
                 </Route>
-                <Route path="/">
+                <Route path="/kiosks/:id">
+                  <Kiosk />
+                </Route>
+                <Route path="/kiosks">
                   <Kiosks />
+                </Route>
+                <Route path="/">
                 </Route>
               </Switch>
             </div>
@@ -47,8 +49,8 @@ export default function Header() {
 
 function Kiosks() {
   const [filter, setFilter] = React.useState("");
-  const items = ['', 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт-Петербург', 'Воронеж', 'Волгоград'];
-  const [data, setData] = React.useState<{ title: string; description: string | undefined; machineName: string; version: string }[]>();
+  const items = [['', 'Все'], 'Екатеринбург', 'Новосибирск', 'Москва', 'Санкт-Петербург', 'Воронеж', 'Волгоград'];
+  const [data, setData] = React.useState<{ title: string; description: string | undefined; machineName: string; version: string; id: string; isLaunched: string; }[]>();
   useEffect(() => {
     async function main() {
       const kiosk = await getData();
@@ -85,7 +87,9 @@ function Kiosks() {
                 name={element.title || element.machineName}
                 description={element.description || ""}
                 machineName={element.machineName}
-                version={element.version} />
+                version={element.version}
+                id={element.id}
+                isLaunched={element.isLaunched} />
             </div>
           ))
         }
@@ -110,11 +114,7 @@ function Users() {
   )
 }
 
-function MenuCard() {
-  return (
-    <Menu />
-  )
-}
+
 
 const myHeaders = new Headers();
 
