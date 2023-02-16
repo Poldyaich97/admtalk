@@ -1,6 +1,4 @@
 import {
-  DARK_THEME,
-  FLAT_THEME_8PX_OLD,
   Select,
   ThemeContext,
   ThemeFactory,
