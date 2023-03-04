@@ -7,7 +7,7 @@
 .menu {
   background-color: #323131;
   max-width: 70%;
-  min-width: 600px;
+  min-width: 750px;
   min-height: 700px;
 
   border-radius: 10px;
@@ -35,10 +35,14 @@
 
 .info_left {
   border-right: 1px solid #424141;
+  
+  flex-grow: 1;
 }
 
 .info_right {
   padding: 0px 36px 24px 36px;
+  flex-grow: 2;
+
 }
 
 .left_btn {
