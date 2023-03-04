@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './/Common.module.css'
 import Information from './Information/Information'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Common: React.FC<any> = (props) => {
   return (
     <div className={styles.wrapper}>
