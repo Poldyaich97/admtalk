@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 
 import React from 'react'
+import { BrowserRouter as Route, Link } from 'react-router-dom'
 import styles from './Header.module.css'
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.logo}>
-            <a href='/kiosks'>
+            <Link to='/'>
               <svg _ngcontent-rix-c118='' height='20' width='32' xmlns='http://www.w3.org/2000/svg'>
                 <path
                   _ngcontent-rix-c118=''
@@ -24,7 +25,7 @@ export default function Header() {
                   fillRule='evenodd'
                 ></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

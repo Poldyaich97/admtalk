@@ -1,18 +1,17 @@
+import containerStyle from '../Container/Container.module.css'
 import styles from './Main.module.css'
 import React from 'react'
 import Navigation from './Navigation/Navigation'
 import Card from './Card/Card'
 import Kiosk from './Kiosk/Kiosk'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import containerStyle from '../Container/Container.module.css'
-
 import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui'
 import { useEffect } from 'react'
 
 export default function Header() {
   return (
     <main className={styles.main}>
-      <div className={containerStyle.container}>
+      <div className={`${containerStyle.container}>> ${styles.containerWidth}`}>
         <div className={styles.mainBg}>
           <Router>
             <div>

@@ -18,7 +18,7 @@ const Card: React.FC<any> = (props) => {
           ></div>
           <div className={stylesCard.info}>
             <h4 className={stylesCard.name}>{props.name || props.machineName}</h4>
-            <p className={stylesCard.description}>{props.description || ''}</p>
+            <p className={stylesCard.description}>{props.description || 'Описание отстуствует'}</p>
           </div>
         </div>
         <div className={stylesCard.version}>{props.version}</div>

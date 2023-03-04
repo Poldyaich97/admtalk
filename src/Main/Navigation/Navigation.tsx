@@ -1,10 +1,12 @@
 import React from 'react'
-import stylesNav from './Navigation.module.css'
+import styles from './Navigation.module.css'
+import containerStyle from '../Container/Container.module.css'
+
 import { BrowserRouter as Route, Link } from 'react-router-dom'
 
 export default function Navigation() {
   return (
-    <div className={stylesNav.wrapper}>
+    <div className={styles.wrapper}>
       <div>
         <nav>
           <ul>

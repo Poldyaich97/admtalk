@@ -1,3 +1,7 @@
+.containerWidth{
+  width: 100%;
+  max-width: 1200px;
+}
 .main {
   padding: 20px 0px;
   display: flex;
