@@ -8,7 +8,17 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui'
 import { useEffect } from 'react'
 
-export default function Header() {
+const items = [
+  ['', 'Все'],
+  'Екатеринбург',
+  'Новосибирск',
+  'Москва',
+  'Санкт-Петербург',
+  'Воронеж',
+  'Волгоград',
+]
+
+export default function Main() {
   return (
     <main className={styles.main}>
       <div className={`${containerStyle.container}>> ${styles.containerWidth}`}>
@@ -41,15 +51,7 @@ export default function Header() {
 
 function Kiosks() {
   const [filter, setFilter] = React.useState('')
-  const items = [
-    ['', 'Все'],
-    'Екатеринбург',
-    'Новосибирск',
-    'Москва',
-    'Санкт-Петербург',
-    'Воронеж',
-    'Волгоград',
-  ]
+
   const [data, setData] = React.useState<
     {
       title: string
@@ -89,14 +91,7 @@ function Kiosks() {
         </div>
         <div className={styles.line}></div>
         {data
-          .filter((e) => {
-            if (e.description == undefined) {
-              e.description = ''
-              return e.description.indexOf(filter) != -1
-            } else {
-              return e.description.indexOf(filter) != -1
-            }
-          })
+          .filter((e) => (e.description || '').indexOf(filter) !== -1)
           .map((element, pos) => (
             <div key={pos}>
               <Card
