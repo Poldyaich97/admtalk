@@ -7,6 +7,7 @@ import Kiosk from './Kiosk/Kiosk'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui'
 import { useEffect } from 'react'
+import getData from './api'
 
 const items = [
   ['', 'Все'],
@@ -64,7 +65,7 @@ function Kiosks() {
   >()
   useEffect(() => {
     async function main() {
-      const kiosk = await getData()
+      const kiosk = await getData(`?pageSize=1000`)
       setData(kiosk.kiosks)
     }
     main()
@@ -125,18 +126,4 @@ function Users() {
       <p>Пока тут ничего нет</p>
     </div>
   )
-}
-
-const myHeaders = new Headers()
-
-myHeaders.append('X-Auth-Token', process.env.REACT_APP_KEY!)
-
-const requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-}
-async function getData() {
-  const data = await fetch('https://kontur.ktalk.ru/api/kiosk?pageSize=1000', requestOptions)
-  const content = await data.json()
-  return content
 }
