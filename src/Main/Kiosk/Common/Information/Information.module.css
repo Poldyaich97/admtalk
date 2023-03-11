@@ -10,6 +10,8 @@
 }
 .parmTwo{
     padding-left: 8px;
+    font-size: 18px;
+    color: white;
 }
 .parmOne, .parmTwo{
     margin: 0;

@@ -9,7 +9,7 @@ export default function Navigation() {
     <div className={styles.wrapper}>
       <div>
         <nav>
-          <ul>
+          <ul className={styles.listing}>
             <li>
               <Link to='/kiosks'>Киоски</Link>
             </li>
