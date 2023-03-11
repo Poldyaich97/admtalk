@@ -3,4 +3,12 @@
 }
 .information {
   margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.callenfrInfo{
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgba(255, 255, 255, 0.53)
 }
