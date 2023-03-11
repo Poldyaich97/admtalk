@@ -91,7 +91,7 @@ function Kiosks() {
         </div>
         <div className={styles.line}></div>
         {data
-          .filter((e) => (e.description || '').indexOf(filter) !== -1)
+          .filter((e) => (e.description ?? '').indexOf(filter) !== -1)
           .map((element, pos) => (
             <div key={pos}>
               <Card
