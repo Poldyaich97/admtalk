@@ -95,14 +95,7 @@ function Kiosks() {
           .filter((e) => (e.description ?? '').indexOf(filter) !== -1)
           .map((element, pos) => (
             <div key={pos}>
-              <Card
-                name={element.title || element.machineName}
-                description={element.description || ''}
-                machineName={element.machineName}
-                version={element.version}
-                id={element.id}
-                isLaunched={element.isLaunched}
-              />
+              <Card data={element} />
             </div>
           ))}
       </div>

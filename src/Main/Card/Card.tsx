@@ -7,22 +7,23 @@ const linkStyle = {
 }
 
 const Card: React.FC<any> = (props) => {
+  const data = props.data
   const { path, url } = useRouteMatch()
 
   return (
-    <Link to={`${url}/${props.id}`} style={linkStyle}>
+    <Link to={`${url}/${data.id}`} style={linkStyle}>
       <div className={stylesCard.wrapper}>
         <div className={stylesCard.infoKiosk}>
           <div
-            className={props.isLaunched === true ? stylesCard.statOnline : stylesCard.statOffline}
+            className={data.isLaunched === true ? stylesCard.statOnline : stylesCard.statOffline}
           ></div>
           <div className={stylesCard.info}>
-            <h4 className={stylesCard.name}>{props.name || props.machineName}</h4>
-            <p className={stylesCard.description}>{props.description || 'Описание отстуствует'}</p>
+            <h4 className={stylesCard.name}>{data.title || data.machineName}</h4>
+            <p className={stylesCard.description}>{data.description || 'Описание отстуствует'}</p>
           </div>
         </div>
-        <div className={stylesCard.version}>{props.version}</div>
-        <div className={stylesCard.namePC}>{props.machineName}</div>
+        <div className={stylesCard.version}>{data.version}</div>
+        <div className={stylesCard.namePC}>{data.machineName}</div>
       </div>
     </Link>
   )
