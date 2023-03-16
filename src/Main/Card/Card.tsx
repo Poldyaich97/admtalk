@@ -16,7 +16,7 @@ const Card: React.FC<any> = (props) => {
         <div className={stylesCard.infoKiosk}>
           <div
             className={data.isLaunched === true ? stylesCard.statOnline : stylesCard.statOffline}
-          ></div>
+          />
           <div className={stylesCard.info}>
             <h4 className={stylesCard.name}>{data.title || data.machineName}</h4>
             <p className={stylesCard.description}>{data.description || 'Описание отстуствует'}</p>

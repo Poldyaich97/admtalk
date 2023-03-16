@@ -11,23 +11,27 @@
 .mainBg {
   background-color: #2d2d2d;
   border-radius: 6px;
+  padding: 35px 0px;
 }
 
 .info {
   display: flex;
   justify-content: space-between;
-  padding: 0px 16px 0px 8px;
+  padding: 0px 8px 0px 8px;
 }
 
-.info p {
+.infoName, .infoVersion, .infoPC {
   font-size: 18px;
   font-weight: 400;
   color: #9c9c9c;
 }
 
-.name {
+.infoName {
   width: 250px;
-  margin-right: 50px;
+}
+.infoPC{
+  width: 200px;
+  text-align: right;
 }
 
 .line {
@@ -43,4 +47,25 @@
 
 .select {
   width: 150px;
+}
+
+@media (max-width: 768px) {
+  .infoVersion{
+    display: none;
+  }
+  .infoName, .infoVersion, .infoPC {
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .infoName{
+    width: 150px;
+  }
+
+  .infoName, .infoVersion, .infoPC {
+    font-size: 12px;
+
+  }
 }
