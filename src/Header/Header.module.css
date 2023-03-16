@@ -1,0 +1,18 @@
+.container {
+  padding: 0px 16px;
+}
+
+.header {
+  width: 100%;
+  background-color: #343434;
+}
+
+.logo svg {
+  padding: 14px 0px;
+  fill: gray;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}

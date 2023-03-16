@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 8px;
+  height: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.wrapper:hover {
+  background-color: #16161626;
+}
+
+.stat {
+}
+
+.statOnline {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+  min-width: 8px;
+  background-color: green;
+}
+
+.statOffline {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+  min-width: 8px;
+  background-color: red;
+}
+
+.infoKiosk {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.info {
+  width: 300px;
+}
+
+.name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.namePC {
+  width: 135px;
+}
+
+.namePC,
+.version {
+  margin: 0;
+  font-size: 18px;
+}
+
+.description {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

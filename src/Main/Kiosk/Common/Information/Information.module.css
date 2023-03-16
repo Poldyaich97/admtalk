@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    user-select: text;
+    margin: 8px 0px;
+}
+.parmOne{
+    padding-right: 8px;
+}
+.parmTwo{
+    padding-left: 8px;
+    font-size: 18px;
+    color: white;
+}
+.parmOne, .parmTwo{
+    margin: 0;
+}
+.dot{
+    flex: 1;
+    border-bottom: 2px dotted gray;
+}
