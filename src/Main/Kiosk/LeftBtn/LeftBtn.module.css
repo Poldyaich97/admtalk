@@ -1,0 +1,11 @@
+.left_btn {
+    display: block;
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 18px;
+    
+    }
+    
+    .btn_active {
+      background-color: gray;
+    }

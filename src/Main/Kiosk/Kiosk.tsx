@@ -3,6 +3,7 @@ import styles from './Kiosk.module.css'
 import { Link, Route, Switch, useLocation, useParams, useRouteMatch } from 'react-router-dom'
 import Common from './Common/Common'
 import getData from '../api'
+import LeftBtn from './LeftBtn/LeftBtn'
 
 const Kiosk: React.FC<any> = () => {
   const [data, setData] = React.useState<{
@@ -49,51 +50,22 @@ const Kiosk: React.FC<any> = () => {
           </div>
           <div className={styles.info_wrapper}>
             <div className={styles.info_left}>
-              <Link
-                className={`${styles.left_btn} + ${isActive === 'common' ? styles.btn_active : ''}`}
-                to={`${url}/common`}
-              >
-                Общие
-              </Link>
-
-              <Link
-                className={`${styles.left_btn} + ${isActive === 'audio' ? styles.btn_active : ''}`}
-                to={`${url}/audio`}
-              >
-                Аудио
-              </Link>
-
-              <Link
-                className={`${styles.left_btn} + ${isActive === 'video' ? styles.btn_active : ''}`}
-                to={`${url}/video`}
-              >
-                Видео
-              </Link>
-
-              <Link
-                className={`${styles.left_btn} + ${
-                  isActive === 'devices' ? styles.btn_active : ''
-                }`}
-                to={`${url}/devices`}
-              >
-                Устройства
-              </Link>
-
-              <Link
-                className={`${styles.left_btn} + ${
-                  isActive === 'updates' ? styles.btn_active : ''
-                }`}
-                to={`${url}/updates`}
-              >
-                Обновления
-              </Link>
-
-              <Link
-                className={`${styles.left_btn} + ${isActive === 'other' ? styles.btn_active : ''}`}
-                to={`${url}/other`}
-              >
-                Другое
-              </Link>
+              <LeftBtn isActive={isActive} section='common' url={`${url}/common`} name='Общие' />
+              <LeftBtn isActive={isActive} section='audio' url={`${url}/audio`} name='Аудио' />
+              <LeftBtn isActive={isActive} section='video' url={`${url}/video`} name='Видео' />
+              <LeftBtn
+                isActive={isActive}
+                section='devices'
+                url={`${url}/devices`}
+                name='Устройства'
+              />
+              <LeftBtn
+                isActive={isActive}
+                section='updates'
+                url={`${url}/updates`}
+                name='Обновление'
+              />
+              <LeftBtn isActive={isActive} section='other' url={`${url}/other`} name='Прочее' />
             </div>
             <div className={styles.info_right}>
               <Switch>
@@ -124,16 +96,3 @@ const Kiosk: React.FC<any> = () => {
   }
 }
 export default Kiosk
-
-// const myHeaders = new Headers()
-// myHeaders.append('X-Auth-Token', process.env.REACT_APP_KEY!)
-
-// const requestOptions = {
-//   method: 'GET',
-//   headers: myHeaders,
-// }
-// async function getData(id: string) {
-//   const data = await fetch(`https://kontur.ktalk.ru/api/kiosk/${id}`, requestOptions)
-//   const content = await data.json()
-//   return content
-// }
