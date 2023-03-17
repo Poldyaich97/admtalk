@@ -12,3 +12,21 @@
   font-weight: 400px;
   color: rgba(255, 255, 255, 0.53)
 }
+
+
+@media (max-width: 768px) {
+  .information {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .callenfrInfo{
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 480px) {
+
+  
+
+}

@@ -41,12 +41,8 @@ const Kiosk: React.FC<any> = () => {
       <div className={styles.wrapper}>
         <div className={styles.menu}>
           <div className={styles.headerMenu}>
-            <div className={styles.title_header}>
-              <p className={styles.name_header}>Настройки: {data.title || data.machineName}</p>
-            </div>
-            <div className={styles.close_btn}>
-              <Link to='/kiosks' className={styles.close}></Link>
-            </div>
+            <p className={styles.name_header}>Настройки: {data.title || data.machineName}</p>
+            <Link to='/kiosks' className={styles.close}></Link>
           </div>
           <div className={styles.info_wrapper}>
             <div className={styles.info_left}>
