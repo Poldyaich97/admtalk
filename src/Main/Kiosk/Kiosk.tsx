@@ -4,6 +4,8 @@ import { Link, Route, Switch, useLocation, useParams, useRouteMatch } from 'reac
 import Common from './Common/Common'
 import getData from '../api'
 import LeftBtn from './LeftBtn/LeftBtn'
+import NavigationKiosk from './NavigationKiosk/NavigationKiosk'
+import arrow from './arrow.svg'
 
 const Kiosk: React.FC<any> = () => {
   const [data, setData] = React.useState<{
@@ -41,27 +43,22 @@ const Kiosk: React.FC<any> = () => {
       <div className={styles.wrapper}>
         <div className={styles.menu}>
           <div className={styles.headerMenu}>
+            <Link to={`${url}/NavigationKiosk`}>
+              <img src={arrow} alt='arrow_back' className={styles.arrowLeft} />
+            </Link>
             <p className={styles.name_header}>Настройки: {data.title || data.machineName}</p>
-            <Link to='/kiosks' className={styles.close}></Link>
+            <Link to={`/kiosks`} className={styles.close}></Link>
+          </div>
+          <div className={styles.navMobile}>
+            <Switch>
+              <Route path={`${path}/NavigationKiosk`}>
+                <NavigationKiosk isActive={isActive} url={url} />
+              </Route>
+            </Switch>
           </div>
           <div className={styles.info_wrapper}>
-            <div className={styles.info_left}>
-              <LeftBtn isActive={isActive} section='common' url={`${url}/common`} name='Общие' />
-              <LeftBtn isActive={isActive} section='audio' url={`${url}/audio`} name='Аудио' />
-              <LeftBtn isActive={isActive} section='video' url={`${url}/video`} name='Видео' />
-              <LeftBtn
-                isActive={isActive}
-                section='devices'
-                url={`${url}/devices`}
-                name='Устройства'
-              />
-              <LeftBtn
-                isActive={isActive}
-                section='updates'
-                url={`${url}/updates`}
-                name='Обновление'
-              />
-              <LeftBtn isActive={isActive} section='other' url={`${url}/other`} name='Прочее' />
+            <div className={styles.navDesktop}>
+              <NavigationKiosk isActive={isActive} url={url} />
             </div>
             <div className={styles.info_right}>
               <Switch>
@@ -82,6 +79,9 @@ const Kiosk: React.FC<any> = () => {
                 </Route>
                 <Route path={`${path}/other`}>
                   <div>other</div>
+                </Route>
+                <Route path={`${path}/`}>
+                  <Common data={data} />
                 </Route>
               </Switch>
             </div>

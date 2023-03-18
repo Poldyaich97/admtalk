@@ -1,0 +1,40 @@
+
+  
+  .info_left {
+    border-right: 1px solid #424141;
+    flex-grow: 1;
+  }
+  
+  .info_right {
+    padding: 0px 36px 24px 36px;
+    flex-grow: 4;
+    max-width: 440px;
+  
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+
+    .name_header {
+      margin-right: 40px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+  
+  }
+
+@media (max-width: 480px) {
+
+    /* .info_left{
+      display: none;
+    } */
+  
+    .name_header {
+      display: none;
+    }
+  
+  }
+  

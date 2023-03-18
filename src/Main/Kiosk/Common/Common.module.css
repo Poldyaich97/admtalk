@@ -18,6 +18,7 @@
   .information {
     margin-bottom: 10px;
     font-size: 12px;
+    
   }
 
   .callenfrInfo{
@@ -27,6 +28,9 @@
 }
 @media (max-width: 480px) {
 
-  
+  .information {
+    text-align: center;
+    
+  }
 
 }
