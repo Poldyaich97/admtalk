@@ -23,7 +23,7 @@ const Card: React.FC<any> = (props) => {
           </div>
         </div>
         <div className={stylesCard.version}>{data.version}</div>
-        <div className={stylesCard.namePC}>{data.machineName}</div>
+        <p className={stylesCard.namePC}>{data.machineName}</p>
       </div>
     </Link>
   )

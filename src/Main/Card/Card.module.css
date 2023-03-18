@@ -93,10 +93,26 @@
     white-space: break-spaces;
   }
   .namePC {
-    width: 120px;
+    /* width: 120px; */
    }
 
   .namePC, .machineName {
     font-size: 14px;
     } 
 }
+
+@media (max-width: 370px) {
+  .name {
+    font-size: 10px;
+  }
+  .description {
+    font-size: 10px;
+    white-space: break-spaces;
+  }
+  
+
+  .namePC, .machineName {
+    font-size: 10px;
+    } 
+}
+
