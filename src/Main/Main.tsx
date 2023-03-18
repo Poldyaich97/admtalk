@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import containerStyle from '../Container/Container.module.css'
 import styles from './Main.module.css'
 import React from 'react'
 import Kiosk from './Kiosk/Kiosk'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Kiosks from './Kiosks/Kiosks'
-import Common from './Kiosk/Common/Common'
 
 export default function Main() {
   const Home = () => {

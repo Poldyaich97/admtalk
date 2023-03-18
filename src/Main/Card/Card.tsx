@@ -6,9 +6,10 @@ const linkStyle = {
   textDecoration: 'none',
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Card: React.FC<any> = (props) => {
   const data = props.data
-  const { path, url } = useRouteMatch()
+  const { url } = useRouteMatch()
 
   return (
     <Link to={`${url}/${data.id}`} style={linkStyle}>

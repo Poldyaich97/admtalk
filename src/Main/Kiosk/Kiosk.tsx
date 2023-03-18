@@ -3,10 +3,10 @@ import styles from './Kiosk.module.css'
 import { Link, Route, Switch, useLocation, useParams, useRouteMatch } from 'react-router-dom'
 import Common from './Common/Common'
 import getData from '../api'
-import LeftBtn from './LeftBtn/LeftBtn'
 import NavigationKiosk from './NavigationKiosk/NavigationKiosk'
 import arrow from './arrow.svg'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Kiosk: React.FC<any> = () => {
   const [data, setData] = React.useState<{
     title: string
