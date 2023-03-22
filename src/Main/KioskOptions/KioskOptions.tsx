@@ -1,20 +1,22 @@
 import React, { useEffect } from 'react'
-import styles from './Kiosk.module.css'
-import { Link, Route, Switch, useLocation, useParams, useRouteMatch } from 'react-router-dom'
+import styles from './KioskOptions.module.css'
+import {
+  Link,
+  Redirect,
+  Route,
+  Switch,
+  useLocation,
+  useParams,
+  useRouteMatch,
+} from 'react-router-dom'
 import Common from './Common/Common'
 import getData from '../api'
 import NavigationKiosk from './NavigationKiosk/NavigationKiosk'
 import arrow from './arrow.svg'
+import { Kiosk } from '../types'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const Kiosk: React.FC<any> = () => {
-  const [data, setData] = React.useState<{
-    title: string
-    description: string | undefined
-    machineName: string
-    version: string
-    id: string
-  }>()
+const KioskOptions: React.FC = () => {
+  const [data, setData] = React.useState<Kiosk>()
   const { id } = useParams<{ id: string }>()
   const { path, url } = useRouteMatch()
   const location = useLocation()
@@ -80,9 +82,10 @@ const Kiosk: React.FC<any> = () => {
                 <Route path={`${path}/other`}>
                   <div>other</div>
                 </Route>
-                <Route path={`${path}/`}>
+                <Redirect from={`${path}/`} to={`${path}/common`} />
+                {/* <Route path={`${path}/`}>
                   <Common data={data} />
-                </Route>
+                </Route> */}
               </Switch>
             </div>
           </div>
@@ -91,4 +94,4 @@ const Kiosk: React.FC<any> = () => {
     )
   }
 }
-export default Kiosk
+export default KioskOptions

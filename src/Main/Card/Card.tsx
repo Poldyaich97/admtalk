@@ -1,30 +1,28 @@
 import React from 'react'
 import { Link, useRouteMatch } from 'react-router-dom'
-import stylesCard from './/Card.module.css'
+import styles from './/Card.module.css'
+import { Kiosk } from '../types'
 
-const linkStyle = {
-  textDecoration: 'none',
+interface CardProps {
+  data: Kiosk
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const Card: React.FC<any> = (props) => {
+const Card: React.FC<CardProps> = (props) => {
   const data = props.data
   const { url } = useRouteMatch()
 
   return (
-    <Link to={`${url}/${data.id}`} style={linkStyle}>
-      <div className={stylesCard.wrapper}>
-        <div className={stylesCard.infoKiosk}>
-          <div
-            className={data.isLaunched === true ? stylesCard.statOnline : stylesCard.statOffline}
-          />
-          <div className={stylesCard.info}>
-            <h4 className={stylesCard.name}>{data.title || data.machineName}</h4>
-            <p className={stylesCard.description}>{data.description || 'Описание отстуствует'}</p>
+    <Link to={`${url}/${data.id}`} className={styles.link}>
+      <div className={styles.wrapper}>
+        <div className={styles.infoKiosk}>
+          <div className={data.isLaunched === true ? styles.statOnline : styles.statOffline} />
+          <div className={styles.info}>
+            <h4 className={styles.name}>{data.title || data.machineName}</h4>
+            <p className={styles.description}>{data.description || 'Описание отстуствует'}</p>
           </div>
         </div>
-        <div className={stylesCard.version}>{data.version}</div>
-        <p className={stylesCard.namePC}>{data.machineName}</p>
+        <div className={styles.version}>{data.version}</div>
+        <p className={styles.namePC}>{data.machineName}</p>
       </div>
     </Link>
   )

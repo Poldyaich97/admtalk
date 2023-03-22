@@ -1,9 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import containerStyle from '../Container/Container.module.css'
 import styles from './Main.module.css'
 import React from 'react'
-import Kiosk from './Kiosk/Kiosk'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import KioskOptions from './KioskOptions/KioskOptions'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import Kiosks from './Kiosks/Kiosks'
 
 export default function Main() {
@@ -17,7 +16,7 @@ export default function Main() {
           <div>
             <Switch>
               <Route path='/kiosks/:id'>
-                <Kiosk />
+                <KioskOptions />
               </Route>
               <Route path='/kiosks'>
                 <Kiosks />

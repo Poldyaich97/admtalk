@@ -1,3 +1,4 @@
+// for disable warnings SVG attributes
 /* eslint-disable react/no-unknown-property */
 
 import React from 'react'

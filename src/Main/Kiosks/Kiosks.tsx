@@ -4,6 +4,7 @@ import Card from '../Card/Card'
 import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui'
 import { useEffect } from 'react'
 import getData from '../api'
+import { Kiosk } from '../types'
 
 const items = [
   ['', 'Все'],
@@ -18,16 +19,7 @@ const items = [
 export default function Kiosks() {
   const [filter, setFilter] = React.useState('')
 
-  const [data, setData] = React.useState<
-    {
-      title: string
-      description: string | undefined
-      machineName: string
-      version: string
-      id: string
-      isLaunched: string
-    }[]
-  >()
+  const [data, setData] = React.useState<Kiosk[]>()
   useEffect(() => {
     async function main() {
       const kiosk = await getData(`?pageSize=1000`)
