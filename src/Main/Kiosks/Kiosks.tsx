@@ -23,11 +23,11 @@ export default function Kiosks() {
   useEffect(() => {
     async function main() {
       const kiosk = await getData(`?pageSize=1000`)
+
       setData(kiosk.kiosks)
     }
     main()
   }, [])
-
   if (!data) {
     return <div>Загружается</div>
   } else {

@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './LeftBtn.module.css'
 
 import { Link } from 'react-router-dom'
+import { BtnProps } from '../../types'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const LeftBtn: React.FC<any> = (props) => {
+const LeftBtn: React.FC<BtnProps> = (props) => {
   return (
     <Link
       className={`${styles.left_btn} + ${
