@@ -3,31 +3,31 @@ import React from 'react'
 import Card from '../Card/Card'
 import { ThemeContext, DARK_THEME, Select } from '@skbkontur/react-ui'
 import { useEffect } from 'react'
-import getData from '../api'
+import { getKiosks } from '../api'
 import { Kiosk } from '../types'
 
-const items = [
-  ['', 'Все'],
-  'Екатеринбург',
-  'Новосибирск',
-  'Москва',
-  'Санкт-Петербург',
-  'Воронеж',
-  'Волгоград',
-]
+const items = [['', 'Все'], 'Чебаркуль', 'Новосибирск', 'Москва', 'Санкт-Петербург', 'Уфа']
 
 export default function Kiosks() {
   const [filter, setFilter] = React.useState('')
-
   const [data, setData] = React.useState<Kiosk[]>()
   useEffect(() => {
     async function main() {
-      const kiosk = await getData(`?pageSize=1000`)
-
+      const kiosk = await getKiosks()
+      kiosk.kiosks.sort((a, b) => {
+        if (a.isLaunched && !b.isLaunched) {
+          return 1
+        }
+        if (!a.isLaunched && b.isLaunched) {
+          return -1
+        }
+        return 0
+      })
       setData(kiosk.kiosks)
     }
     main()
   }, [])
+
   if (!data) {
     return <div>Загружается</div>
   } else {
@@ -50,8 +50,8 @@ export default function Kiosks() {
         <div className={styles.line}></div>
         {data
           .filter((e) => (e.description ?? '').indexOf(filter) !== -1)
-          .map((element, pos) => (
-            <div key={pos}>
+          .map((element) => (
+            <div key={element.id}>
               <Card data={element} />
             </div>
           ))}

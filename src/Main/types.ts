@@ -1,10 +1,10 @@
 export  interface Kiosk {
+    isLaunched: boolean
     title: string
     description: string | undefined
     machineName: string
     version: string
     id: string
-    isLaunched: boolean
     kioskKey:string
     isActive:string
   }

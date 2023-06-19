@@ -10,7 +10,7 @@ import {
   useRouteMatch,
 } from 'react-router-dom'
 import Common from './Common/Common'
-import getData from '../api'
+import { getKiosk } from '../api'
 import NavigationKiosk from './NavigationKiosk/NavigationKiosk'
 import arrow from './arrow.svg'
 import { Kiosk } from '../types'
@@ -27,7 +27,7 @@ const KioskOptions: React.FC = () => {
   useEffect(() => {
     async function kiosk() {
       try {
-        const data = await getData(`/${id}`)
+        const data = await getKiosk(id)
         setData(data)
       } catch (error) {
         setIsError(true)
@@ -83,9 +83,6 @@ const KioskOptions: React.FC = () => {
                   <div>other</div>
                 </Route>
                 <Redirect from={`${path}/`} to={`${path}/common`} />
-                {/* <Route path={`${path}/`}>
-                  <Common data={data} />
-                </Route> */}
               </Switch>
             </div>
           </div>
