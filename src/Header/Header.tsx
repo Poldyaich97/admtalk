@@ -1,7 +1,8 @@
+// for disable warnings SVG attributes
 /* eslint-disable react/no-unknown-property */
 
 import React from 'react'
-import { BrowserRouter as Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 
 export default function Header() {

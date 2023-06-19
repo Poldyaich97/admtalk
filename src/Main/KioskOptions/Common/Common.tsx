@@ -1,9 +1,13 @@
 import React from 'react'
+import { Kiosk } from '../../types'
 import styles from './/Common.module.css'
 import Information from './Information/Information'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const Common: React.FC<any> = (props) => {
+interface CardProps {
+  data: Kiosk
+}
+
+const Common: React.FC<CardProps> = (props) => {
   return (
     <div className={styles.wrapper}>
       <h4 className={styles.information}>Параметры</h4>

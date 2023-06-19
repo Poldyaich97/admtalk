@@ -14,9 +14,9 @@
   background-color: #16161626;
 }
 
-.stat {
+.link{
+  text-decoration: none;
 }
-
 .statOnline {
   width: 8px;
   height: 8px;
@@ -38,11 +38,10 @@
 .infoKiosk {
   display: flex;
   align-items: center;
-  margin-right: 50px;
 }
 
 .info {
-  width: 300px;
+  width: 250px;
 }
 
 .name {
@@ -52,11 +51,15 @@
 }
 
 .namePC {
-  width: 135px;
+  width: 200px;
+  text-align: right;
 }
-
+.version{
+  width: 62px;
+  text-align: center;
+}
 .namePC,
-.version {
+.version, .machineName {
   margin: 0;
   font-size: 18px;
 }
@@ -68,3 +71,51 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+@media (max-width: 768px) {
+  .version{
+    display: none;
+  }
+  .namePC, .machineName {
+  font-size: 14px;
+  } 
+}
+@media (max-width: 480px) {
+  .wrapper{
+    padding: 8px;
+  }
+
+  .info{
+    width: 150px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .description {
+    font-size: 10px;
+    white-space: break-spaces;
+  }
+  .namePC {
+    /* width: 120px; */
+   }
+
+  .namePC, .machineName {
+    font-size: 14px;
+    } 
+}
+
+@media (max-width: 370px) {
+  .name {
+    font-size: 10px;
+  }
+  .description {
+    font-size: 10px;
+    white-space: break-spaces;
+  }
+  
+
+  .namePC, .machineName {
+    font-size: 10px;
+    } 
+}
+

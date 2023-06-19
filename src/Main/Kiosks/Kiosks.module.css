@@ -1,0 +1,71 @@
+.containerWidth{
+    width: 100%;
+    max-width: 1200px;
+  }
+  .main {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .mainBg {
+    background-color: #2d2d2d;
+    border-radius: 6px;
+    padding: 35px 0px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 0px 8px;
+  }
+  
+  .infoName, .infoVersion, .infoPC {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9c9c9c;
+  }
+  
+  .infoName {
+    width: 250px;
+  }
+  .infoPC{
+    width: 200px;
+    text-align: right;
+  }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    background: #3d3d3d;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper {
+    padding: 0px 20px;
+  }
+  
+  .select {
+    width: 150px;
+  }
+  
+  @media (max-width: 768px) {
+    .infoVersion{
+      display: none;
+    }
+    .infoName, .infoVersion, .infoPC {
+      font-size: 14px;
+  
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .infoName{
+      width: 150px;
+    }
+  
+    .infoName, .infoVersion, .infoPC {
+      font-size: 12px;
+  
+    }
+  }

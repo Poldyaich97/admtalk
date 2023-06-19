@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    user-select: text;
+    margin: 8px 0px;
+}
+.parmOne{
+    padding-right: 4px;
+    text-align: left;
+}
+.parmTwo{
+    padding-left: 4px;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+}
+.parmOne, .parmTwo{
+    margin: 0;
+}
+.dot{
+    flex: 1;
+    border-bottom: 2px dotted gray;
+}
+
+@media (max-width: 768px) {
+    .parmOne{
+        font-size: 14px;
+    }
+    .parmTwo{
+        font-size: 14px;
+    }
+  
+  }
+  @media (max-width: 480px) {
+  
+    .parmOne{
+        font-size: 12px;
+    }
+    .parmTwo{
+        font-size: 12px;
+    }
+  
+  }
