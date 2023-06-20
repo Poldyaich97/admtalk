@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Poldyaich97/admtalk/static/css/main.2f4c75fb.css",
+    "main.js": "/Poldyaich97/admtalk/static/js/main.1619e6f5.js",
+    "index.html": "/Poldyaich97/admtalk/index.html",
+    "static/media/arrow.svg": "/Poldyaich97/admtalk/static/media/arrow.229aab7f04f473ed18d0dd85047580b7.svg",
+    "main.2f4c75fb.css.map": "/Poldyaich97/admtalk/static/css/main.2f4c75fb.css.map",
+    "main.1619e6f5.js.map": "/Poldyaich97/admtalk/static/js/main.1619e6f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f4c75fb.css",
+    "static/js/main.1619e6f5.js"
+  ]
+}
