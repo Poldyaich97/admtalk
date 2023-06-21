@@ -5,7 +5,7 @@ import Main from './Main/Main'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         <Main />
