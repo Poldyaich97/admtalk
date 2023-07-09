@@ -1,0 +1,2475 @@
+{
+    "kiosks": [
+        {
+            "id": "64709ef53e3e236eb7c7edee",
+            "kioskKey": "9q02f8gfqu",
+            "machineName": "PC0TM6N9",
+            "title": "Скрам-зона",
+            "description": "Чебаркуль, Патрика Воли 19а, 10-ый этаж, кабинет 1005",
+            "configuration": {
+                "title": "Скрам-зона",
+                "description": "Чебаркуль, Патрика Воли 19а, 10-ый этаж, кабинет 1005",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-05-26T11:58:45.84Z",
+            "lastActivityDate": "2023-06-02T06:58:29.057Z",
+            "lastKioskActivityDate": "2023-06-02T06:58:29.057Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "646f5695076825df41cf6c4c",
+            "kioskKey": "puuhzctvfp",
+            "title": "Киоск для ВК тест",
+            "description": "",
+            "configuration": {
+                "title": "Киоск для ВК тест",
+                "description": "",
+                "calendarMailbox": "test_room@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "createdDate": "2023-05-25T12:37:41.351Z"
+        },
+        {
+            "id": "646cbc99253d3876ffadf305",
+            "kioskKey": "ekjxslx1rw",
+            "machineName": "8CC206129L",
+            "title": "Спецпомещение",
+            "description": "Чебаркуль,Черепанова 5, 316 кабинет \nБублик Владимир Кузьмич",
+            "configuration": {
+                "title": "Спецпомещение",
+                "description": "Чебаркуль,Черепанова 5, 316 кабинет \nБублик Владимир Кузьмич",
+                "calendarMailbox": "bvk@poldyaev.ru",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-05-23T13:16:09.956Z",
+            "lastActivityDate": "2023-05-25T23:37:51.168Z",
+            "lastKioskActivityDate": "2023-05-25T23:37:51.168Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "59d219a724c2f0ef2c19cb8d75c5e2186cc6bef5a6fce16bf7883d031cb3a297"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "64673648336a2439c2e3c142",
+            "kioskKey": "jdgfsqfmft",
+            "machineName": "CHHYNH3",
+            "title": "Конгресс",
+            "description": "Уфа, 8 Марта 42\\3, 4й этаж, 6 кабинет",
+            "configuration": {
+                "title": "Конгресс",
+                "description": "Уфа, 8 Марта 42\\3, 4й этаж, 6 кабинет",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-05-19T08:41:44.673Z",
+            "lastActivityDate": "2023-06-06T16:44:59.865Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:59.865Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Studio(TM) (045e:0811)",
+                    "deviceId": "a71e66808cf9ce654639cda9a2af2f7663efc43fdb76b45d5c7c82ecad9f0e83"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (Microsoft\u00AE LifeCam Studio(TM)) (045e:0811))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "6464a6a15a4bd821069dc2d3",
+            "kioskKey": "hoshpykoeo",
+            "machineName": "PC21YD9N",
+            "title": "Луна",
+            "description": "Фурманова 126, Кабинет 619",
+            "configuration": {
+                "title": "Луна",
+                "description": "Фурманова 126, Кабинет 619",
+                "calendarMailbox": "fur-619@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-05-17T10:04:17.497Z",
+            "lastActivityDate": "2023-05-18T04:37:26.905Z",
+            "lastKioskActivityDate": "2023-05-18T04:37:26.905Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": [],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "notFound",
+                "microphoneCheckStatus": "notFound",
+                "speakersCheckStatus": "warn",
+                "lastCheckDate": "2023-05-17T10:36:25.262Z"
+            }
+        },
+        {
+            "id": "64649ef8694de19b0107d89e",
+            "kioskKey": "ea6m1qx9uf",
+            "machineName": "MSK-5N8YJF3",
+            "title": "sv_126",
+            "description": "Переговорка 126 Международная (Черепанова 18)",
+            "configuration": {
+                "title": "sv_126",
+                "description": "Переговорка 126 Международная (Черепанова 18)",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-05-17T09:31:36.874Z",
+            "lastActivityDate": "2023-06-05T07:05:14.465Z",
+            "lastKioskActivityDate": "2023-06-05T07:05:14.465Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "eb3ea540456ec5302a81ad017f2167e00c4f70a771583ea4ed7f2418cb3d2e4a"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "644b7bf1436b47269fa3118c",
+            "kioskKey": "h0jvj8ferd",
+            "machineName": "MS2010190018",
+            "title": "Зеленоград",
+            "description": "Переговорная комната, Барнаул, пр. Строителей 117, 2 этаж",
+            "configuration": {
+                "title": "Зеленоград",
+                "description": "Переговорная комната, Барнаул, пр. Строителей 117, 2 этаж",
+                "calendarMailbox": "brl-zelenograd@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-04-28T07:55:29.437Z",
+            "lastActivityDate": "2023-06-06T16:45:15.142Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:15.142Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "644a20e68d612312351аd405088c6a8a2",
+            "kioskKey": "anxrbvu1rc",
+            "machineName": "8HHYNH3",
+            "title": "Корюшка 203",
+            "description": "Санкт-Петербург, Халтурина 2а, 2 этаж",
+            "configuration": {
+                "title": "Корюшка 203",
+                "description": "Санкт-Петербург, Халтурина 2а, 2 этаж",
+                "calendarMailbox": "spb-room-203@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-04-27T07:14:46.028Z",
+            "lastActivityDate": "2023-05-17T12:36:56.424Z",
+            "lastKioskActivityDate": "2023-05-17T12:36:56.424Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "bf243bb7a329af65a33f876a4c3bb0d632f56a8eae61040edbf077291600e89c"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "6442177681752b1c433072d1",
+            "kioskKey": "gh2zgmenby",
+            "machineName": "PC1P24RR",
+            "title": "Переговорная команата 515",
+            "description": "Чебаркуль,Циолковского 27, кабинет 515",
+            "configuration": {
+                "title": "Переговорная команата 515",
+                "description": "Чебаркуль,Циолковского 27, кабинет 515",
+                "calendarMailbox": "clo-515@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-04-21T04:56:22.233Z",
+            "lastActivityDate": "2023-04-27T12:26:06.003Z",
+            "lastKioskActivityDate": "2023-04-27T12:26:06.003Z",
+            "version": "2.5.0",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "643e480c412ffbcbf4e80d23",
+            "kioskKey": "chgkco49zw",
+            "machineName": "PC1P24PZ",
+            "title": "217 Переговорная комната",
+            "description": "Чебаркуль,Циолковского 27, 217 каб",
+            "configuration": {
+                "title": "217 Переговорная комната",
+                "description": "Чебаркуль,Циолковского 27, 217 каб",
+                "calendarMailbox": "clo217@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-04-18T07:34:36.151Z",
+            "lastActivityDate": "2023-06-06T16:44:59.493Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:59.493Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2692)",
+                    "deviceId": "bd2e4d5316df3948c34ed91edc13f26071e9555a2a85e79b11d2c57fa8dcf71c"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (Jabra SPEAK 410 USB) (0b0e:0410))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "6439110c4b6e5c23982b8101",
+            "kioskKey": "tixiu8y7eh",
+            "machineName": "RST-S100M2U4",
+            "title": "Shiba Inu",
+            "description": "Переговорная комната, Ростов-на-Дону, ул.  Лермонтовская, 185, 2 этаж",
+            "configuration": {
+                "title": "Shiba Inu",
+                "description": "Переговорная комната, Ростов-на-Дону, ул.  Лермонтовская, 185, 2 этаж",
+                "calendarMailbox": "rst-shiba_inu@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-04-14T08:38:36.329Z",
+            "lastActivityDate": "2023-05-12T11:28:29.238Z",
+            "lastKioskActivityDate": "2023-05-12T11:28:29.238Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "6437e18db772003b9e898f4d",
+            "kioskKey": "vz9lemctau",
+            "machineName": "PC21Y48G",
+            "title": "Учебный класс \u21162",
+            "description": "Чебаркуль, Черепанова 5, УК2",
+            "configuration": {
+                "title": "Учебный класс \u21162",
+                "description": "Чебаркуль, Черепанова 5, УК2",
+                "calendarMailbox": "pol-class2@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-04-13T11:03:41.006Z",
+            "lastActivityDate": "2023-06-06T16:45:25.244Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:25.244Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech ConferenceCam CC3000e (046d:0845)",
+                    "deviceId": "16887ee61b0c969c9aab3afa49fcfac1bf9349e288e5af26249eccbac4bec446"
+                },
+                {
+                    "label": "OBS Virtual Camera",
+                    "deviceId": "ddca98c9652da3c029fce09cf44439e1964bb904941e78213149214f4b2b15fa"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "6437e154111f46b734742720",
+            "kioskKey": "ygvhcgq2jf",
+            "machineName": "PC21Y43R",
+            "title": "Учебный класс \u21161",
+            "description": "Чебаркуль, Черепанова 5, УК1",
+            "configuration": {
+                "title": "Учебный класс \u21161",
+                "description": "Чебаркуль, Черепанова 5, УК1",
+                "calendarMailbox": "pol-class1@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-04-13T11:02:44.986Z",
+            "lastActivityDate": "2023-06-06T16:45:36.421Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:36.421Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech ConferenceCam CC3000e (046d:0845)",
+                    "deviceId": "47f07eede3417bf6932f9a2081905a731db3994456d66c19ff57ae383389cfbe"
+                },
+                {
+                    "label": "OBS Virtual Camera",
+                    "deviceId": "4e05dc175579477db3efd5205ca5878ee51cd5daa4b2de00ecd22e8871a81a6e"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (ConferenceCam CC3000e Speakerphone) (046d:0846))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "642f18e73c5cb0644d6ad21d",
+            "kioskKey": "slbxolej3j",
+            "machineName": "PC0YANG2",
+            "title": "317 Юпитер",
+            "description": "Чебаркуль, Радищева 28, 317 переговорка",
+            "configuration": {
+                "title": "317 Юпитер",
+                "description": "Чебаркуль, Радищева 28, 317 переговорка",
+                "calendarMailbox": "ra-317@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-04-06T19:09:27.792Z",
+            "lastActivityDate": "2023-06-01T12:51:11.821Z",
+            "lastKioskActivityDate": "2023-06-01T12:51:11.821Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "98504b63bfffc28ee4280bfd38bd023603ee862bfc0cbcc41d952db4dd214b5e"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (Poly Sync 40) (047f:015e))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "6426c380394b578ff3aff22e",
+            "kioskKey": "k9rymc2g8m",
+            "machineName": "K1311007",
+            "title": "Спецпомещение",
+            "description": "Чебаркуль,Черепанова 5, 705 кабинет",
+            "configuration": {
+                "title": "Спецпомещение",
+                "description": "Чебаркуль,Черепанова 5, 705 кабинет",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-03-31T11:26:56.414Z",
+            "lastActivityDate": "2023-04-27T17:13:00.272Z",
+            "lastKioskActivityDate": "2023-04-27T17:13:00.272Z",
+            "version": "2.5.0",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Studio(TM) (045e:0772)",
+                    "deviceId": "0a5b81ea73b1a31cfc173647d4c1f5c9bac54c7764399c6db9cce90e95591b75"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "642510f8a327f111be2e6b95",
+            "kioskKey": "rn6yf3zw90",
+            "machineName": "8CC206129V",
+            "title": "Скрам-зона",
+            "description": "Чебаркуль, Патрика Воли 19А,302-2\nСтрельникова Светлана Евгеньевна",
+            "configuration": {
+                "title": "Скрам-зона",
+                "description": "Чебаркуль, Патрика Воли 19А,302-2\nСтрельникова Светлана Евгеньевна",
+                "calendarMailbox": "sse@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-03-30T04:32:56.318Z",
+            "lastActivityDate": "2023-06-06T16:42:03.297Z",
+            "lastKioskActivityDate": "2023-06-06T16:42:03.297Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "9771036e8196e85a64940f54a18adca631165867b99bb5fa09f615991b6f1f68"
+                }
+            ],
+            "microphoneDevices": [],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "ok",
+                "microphoneCheckStatus": "ok",
+                "speakersCheckStatus": "warn",
+                "lastCheckDate": "2023-04-01T13:09:16.481Z"
+            }
+        },
+        {
+            "id": "6422dc8cd84a8284376561f8",
+            "kioskKey": "4bkpfsbqad",
+            "machineName": "PC1NG4F5",
+            "title": "Спецпомещение",
+            "description": "Чебаркуль, Черепанова 5, 507 кабинет. \nДобровольский Михаил Владимирович",
+            "configuration": {
+                "title": "Спецпомещение",
+                "description": "Чебаркуль, Черепанова 5, 507 кабинет. \nДобровольский Михаил Владимирович",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-03-28T12:24:44.314Z",
+            "lastActivityDate": "2023-06-06T16:44:56.682Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:56.682Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "0ddbbba8f6d1075e4cc4ac3e7362b7aa9741ef859a359aaeb931e34b14715f6b"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "64130803cb7a6a9af2227084",
+            "kioskKey": "ohlre6b755",
+            "machineName": "GN4VVM3",
+            "title": "Специальное помещение  801",
+            "description": "Чебаркуль, Черепанова 5/4, 801",
+            "configuration": {
+                "title": "Специальное помещение  801",
+                "description": "Чебаркуль, Черепанова 5/4, 801",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-03-16T12:13:55.488Z",
+            "lastActivityDate": "2023-05-23T06:45:27.493Z",
+            "lastKioskActivityDate": "2023-05-23T06:45:27.493Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "a95301258510e941eb008a1790914e923cd7c3158ce84cb06d35ba0e159719ff"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Yeti Stereo Microphone) (046d:0ab7))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (A4tech FHD 1080P PC Camera) (09da:2696)",
+                    "deviceId": "cf0d94a8b5df87289ee74c86aeadf1d865964be88dd83b25b3ef4c4385a5d153"
+                }
+            ]
+        },
+        {
+            "id": "6412e9618d7e175aef69310c",
+            "kioskKey": "urdzuvpa4h",
+            "machineName": "PC1FC5K3",
+            "title": "415 Переговорка",
+            "description": "Чебаркуль,Радищева 28,415",
+            "configuration": {
+                "title": "415 Переговорка",
+                "description": "Чебаркуль,Радищева 28,415",
+                "calendarMailbox": "ra-415@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-03-16T10:03:13.312Z",
+            "lastActivityDate": "2023-06-06T16:45:33.5Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:33.5Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "595b6bf36aa6e1d96325db177214d7db4caeb4c6dfa6084a74a83c5237d33915"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (Poly Sync 40-M) (047f:015f))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (Logitech Webcam C930e) (046d:0843)",
+                    "deviceId": "42ea9618a5237ebd9d1d522903f374ae97450fc0acbbc79fce5aa0fd0bd0760f"
+                }
+            ]
+        },
+        {
+            "id": "640584ddc15b40e9bffab227",
+            "kioskKey": "g1iyw8d5k8",
+            "machineName": "H2N0CV18W988097",
+            "title": "Комната 905",
+            "description": "Чебаркуль, Черепанова 5, 905",
+            "configuration": {
+                "title": "Комната 905",
+                "description": "Чебаркуль, Черепанова 5, 905",
+                "calendarMailbox": "pol-905@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "fadaf9f7fe33faa09feba85aa24f8289665e9415ebb84448b4c0e46d5e028e81"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-03-06T06:14:53.385Z",
+            "lastActivityDate": "2023-05-31T00:24:51.091Z",
+            "lastKioskActivityDate": "2023-05-31T00:24:51.091Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": [],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "ok",
+                "microphoneCheckStatus": "ok",
+                "speakersCheckStatus": "warn",
+                "lastCheckDate": "2023-04-18T05:05:24.422Z"
+            }
+        },
+        {
+            "id": "64005267c04212047c0c331a",
+            "kioskKey": "pkyzpgbz8f",
+            "machineName": "MSK-PC10XZ8X",
+            "title": "123 Телецентр",
+            "description": "Москва, Черепанова 18, 12 этаж",
+            "configuration": {
+                "title": "123 Телецентр",
+                "description": "Москва, Черепанова 18, 12 этаж",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-03-02T07:38:15.835Z",
+            "lastActivityDate": "2023-06-06T16:46:00.905Z",
+            "lastKioskActivityDate": "2023-06-06T16:46:00.905Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "USB Video Device (046d:0821)",
+                    "deviceId": "286a55f0d1788e6f0ed4766141fdc862b0408a7cf00feb931fed15065578fe98"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (USB Audio Device) (046d:0821))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Communications - Микрофон гарнитуры (Poly Sync 40 Hands-Free AG Audio) (Bluetooth)",
+                    "deviceId": "communications"
+                }
+            ]
+        },
+        {
+            "id": "63fc8bacdd72b12c0c2af26b",
+            "kioskKey": "wij0tafmys",
+            "machineName": "SMR-PC10XZ95",
+            "title": "Баунти",
+            "description": "Самара, переговорка 22.5",
+            "configuration": {
+                "title": "Баунти",
+                "description": "Самара, переговорка 22.5",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-02-27T10:53:32.579Z",
+            "lastActivityDate": "2023-06-06T16:44:21.735Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:21.735Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Cinema(TM) (045e:0812)",
+                    "deviceId": "7e79d35961d7d1711cb2bf647ad6e5ca794de8035daf2b7db26714c17ac87b1a"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (Microsoft\u00AE LifeCam Cinema(TM)) (045e:0812))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63edcb3b18306527e8c9ce0d",
+            "kioskKey": "7yn5tjsuzu",
+            "machineName": "PC0XV3RM",
+            "title": "Picnic-20.7",
+            "description": "Конференц-Зал Самара",
+            "configuration": {
+                "title": "Picnic-20.7",
+                "description": "Конференц-Зал Самара",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-02-16T06:20:43.109Z",
+            "lastActivityDate": "2023-05-15T20:58:03.651Z",
+            "lastKioskActivityDate": "2023-05-15T20:58:03.651Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Cinema(TM) (045e:0812)",
+                    "deviceId": "812b8af9c19be111008a803eb4e28b69cfc0f58720154b6c087aa3ff66734332"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (2- Microsoft\u00AE LifeCam Cinema(TM)) (045e:0812))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63eb915d8418292a50ae0b87",
+            "kioskKey": "f7o2fmtpqu",
+            "machineName": "SPB-CV14R040307",
+            "title": "СЗ МРЦ Маркетинг",
+            "description": "Санкт-Петербург,Халтурина 2а",
+            "configuration": {
+                "title": "СЗ МРЦ Маркетинг",
+                "description": "Санкт-Петербург,Халтурина 2а",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-02-14T13:49:17.408Z",
+            "lastActivityDate": "2023-03-06T06:26:14.077Z",
+            "lastKioskActivityDate": "2023-03-06T06:26:14.077Z",
+            "version": "2.5.0",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "63eb8ad059424dfd4c99d3e8",
+            "kioskKey": "msx5ahfj0w",
+            "machineName": "PC189EFG",
+            "title": "Спецпомещение Ра28,241",
+            "description": "Чебаркуль, Радищева 28, 241 кабинет",
+            "configuration": {
+                "title": "Спецпомещение Ра28,241",
+                "description": "Чебаркуль, Радищева 28, 241 кабинет",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-02-14T13:21:20.185Z",
+            "lastActivityDate": "2023-06-02T13:09:56.992Z",
+            "lastKioskActivityDate": "2023-06-02T13:09:56.992Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "2b0228bbfd0bf960513e33a7b3deba8a6376b000d2724bfe8e8e225d4eb2a973"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Anker PowerConf) (10d6:2048))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63db7e1c3f4d3afa74b7b3f8",
+            "kioskKey": "1wabmr8qrc",
+            "machineName": "vgr-8cg8020vtf",
+            "title": "ОРКК_Челябинск",
+            "description": "Переговорка Челябинск Елькина 45а Комната переговоров 405",
+            "configuration": {
+                "title": "ОРКК_Челябинск",
+                "description": "Переговорка Челябинск Елькина 45а Комната переговоров 405",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-02-02T09:10:52.729Z",
+            "lastActivityDate": "2023-06-06T16:43:47.709Z",
+            "lastKioskActivityDate": "2023-06-06T16:43:47.709Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "8d9afd1671f6e5a8189aa3f3c69da34a8e75c96ad783efdce0ad702e23856d6b"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63d25d5c62582d76eaf362a2",
+            "kioskKey": "nq31djejy6",
+            "machineName": "8P4VVM3",
+            "title": "Спецпомещение",
+            "description": "Чебаркуль, Циолковского:603 кабинет",
+            "configuration": {
+                "title": "Спецпомещение",
+                "description": "Чебаркуль, Циолковского:603 кабинет",
+                "calendarMailbox": "clo-603@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-01-26T11:00:44.424Z",
+            "lastActivityDate": "2023-06-06T16:45:31.394Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:31.394Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "471261b4434ef52fdb6cfb330e220c1fa6f1f9ed7522a7e2cfab1a0083c9a2be"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "63ce74240e5965bd4fcbf4fc",
+            "kioskKey": "pgyq2hscdv",
+            "machineName": "KZN-8M8YJF3",
+            "title": "Эверест",
+            "description": "Переговорная комната, Казань, Декабристов 133, 7 этаж, 714",
+            "configuration": {
+                "title": "Эверест",
+                "description": "Переговорная комната, Казань, Декабристов 133, 7 этаж, 714",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-01-23T11:48:52.84Z",
+            "lastActivityDate": "2023-06-06T16:44:51.834Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:51.834Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "2ca41f3ea5e2521b9d53a26acdeb1fcc7a4caa4ecb91aabc3d825c364ae16aa8"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63c8fb9f1450c5a6e2d864a5",
+            "kioskKey": "cddfrdmcxl",
+            "machineName": "KZN-5M8YJF3",
+            "title": "Монблан",
+            "description": "Переговорная комната, Казань, Декабристов 133, 2 этаж, 206",
+            "configuration": {
+                "title": "Монблан",
+                "description": "Переговорная комната, Казань, Декабристов 133, 2 этаж, 206",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-01-19T08:13:19.596Z",
+            "lastActivityDate": "2023-06-06T16:44:54.711Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:54.711Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "820108896169e8593c0b68df75e6e14495e94de500a59feb13a8a327028a6d4a"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63c7ada14f0f25c38ee567d2",
+            "kioskKey": "bio1lx8svl",
+            "machineName": "KZN-3BXK0D3",
+            "title": "Эльбрус",
+            "description": "Переговорная комната, Казань, Декабристов 133, 4 этаж, 406",
+            "configuration": {
+                "title": "Эльбрус",
+                "description": "Переговорная комната, Казань, Декабристов 133, 4 этаж, 406",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2023-01-18T08:28:17.733Z",
+            "lastActivityDate": "2023-06-06T16:44:59.617Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:59.617Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "aa9ca333e3238ee14db2b81f8c849c6dd703b1549070a8afa185098274b042de"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Anker PowerConf) (10d6:2048))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (A4tech FHD 1080P PC Camera) (09da:2696)",
+                    "deviceId": "ee7c7c211156a625e03a6117a84567f19082ad97c07a8a1ad6ec05e8ecbb4d96"
+                }
+            ]
+        },
+        {
+            "id": "63c65715d011fcd5d80c6b17",
+            "kioskKey": "rpebdbfx3b",
+            "machineName": "KZN-S100M2XB",
+            "title": "Киви_Казань",
+            "description": "Переговорная комната, Казань, Право-Булачная 35/2",
+            "configuration": {
+                "title": "Киви_Казань",
+                "description": "Переговорная комната, Казань, Право-Булачная 35/2",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-01-17T08:06:45.869Z",
+            "lastActivityDate": "2023-06-06T14:51:24.866Z",
+            "lastKioskActivityDate": "2023-06-06T14:51:24.866Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Yeti Stereo Microphone) (b58e:9e84))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Стерео микшер (Realtek High Definition Audio)",
+                    "deviceId": "19336ee799a8824ee2b68abe0064390e8eb2408924d125c7c486017534e0e5f6"
+                }
+            ]
+        },
+        {
+            "id": "63bfd25f5c16b7e43936e6e7",
+            "kioskKey": "q0db7ti73o",
+            "machineName": "4CH7268H7D",
+            "title": "Общего пользования 801",
+            "description": "Чебаркуль, Черепанова 5. 801каб \n4CH7268H7D",
+            "configuration": {
+                "title": "Общего пользования 801",
+                "description": "Чебаркуль, Черепанова 5. 801каб \n4CH7268H7D",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2023-01-12T09:26:55.419Z",
+            "lastActivityDate": "2023-03-28T03:50:08.097Z",
+            "lastKioskActivityDate": "2023-03-28T03:50:08.097Z",
+            "version": "2.5.0",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Cinema(TM) (045e:0812)",
+                    "deviceId": "283802bcd3471d2bf7ffc98114f75ea98cee2e8aebacbacbc1ced13f8f48f4f5"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (Microsoft\u00AE LifeCam Cinema(TM)) (045e:0812))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63a550120b1bc4d535d73271",
+            "kioskKey": "ocm2yx1qo4",
+            "machineName": "PC21YD9Q",
+            "title": "Скрам-зона",
+            "description": "Чебаркуль, Черепанова:519 кабинет\nГолубев.А.В",
+            "configuration": {
+                "title": "Скрам-зона",
+                "description": "Чебаркуль, Черепанова:519 кабинет\nГолубев.А.В",
+                "calendarMailbox": "pol-519@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": true,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "b5fc7d80b82a1ca0bd2fd9d41931206e10f58d411311ae40f604a8c59de9594a"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-12-23T06:52:02.035Z",
+            "lastActivityDate": "2023-06-06T16:41:18.104Z",
+            "lastKioskActivityDate": "2023-06-06T16:41:18.104Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "b5fc7d80b82a1ca0bd2fd9d41931206e10f58d411311ae40f604a8c59de9594a"
+                }
+            ],
+            "microphoneDevices": [],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "ok",
+                "microphoneCheckStatus": "notFound",
+                "speakersCheckStatus": "warn",
+                "lastCheckDate": "2023-03-27T05:41:32.402Z"
+            }
+        },
+        {
+            "id": "639af5f5a661ab934827e738",
+            "kioskKey": "fdkbn7goou",
+            "machineName": "PC0XV3RM",
+            "title": "Самара Конференц-зал",
+            "description": "Московское Шоссе 4а2, 22 этаж 225 кабинет (PC0XV3RM)",
+            "configuration": {
+                "title": "Самара Конференц-зал",
+                "description": "Московское Шоссе 4а2, 22 этаж 225 кабинет (PC0XV3RM)",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "9adc97dabd72a4b1d34c3d9f9a8d785238029a4c3eeb4544ca161f74b831e514"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "createdDate": "2022-12-15T10:24:53.336Z",
+            "lastActivityDate": "2023-02-14T11:49:32.599Z",
+            "lastKioskActivityDate": "2023-02-14T11:41:41.699Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Cinema(TM) (045e:0812)",
+                    "deviceId": "9adc97dabd72a4b1d34c3d9f9a8d785238029a4c3eeb4544ca161f74b831e514"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (Microsoft\u00AE LifeCam Cinema(TM)) (045e:0812))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "639ab9a79a28f2dc801ed1f9",
+            "kioskKey": "du48bfzrah",
+            "machineName": "KZN-7L8YJF3",
+            "title": "Килиманджаро",
+            "description": "Переговорная комната, Казань, Декабристов 133, 7 этаж, 705",
+            "configuration": {
+                "title": "Килиманджаро",
+                "description": "Переговорная комната, Казань, Декабристов 133, 7 этаж, 705",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-12-15T06:07:35.309Z",
+            "lastActivityDate": "2023-06-06T16:46:49.017Z",
+            "lastKioskActivityDate": "2023-06-06T16:46:49.017Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "05eddad35ad8727177157daed0e7c52d17bb0d215d32fdfb8388a20f95c9de04"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (A4tech FHD 1080P PC Camera) (09da:2696))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "638841dcaa12ffe719986a65",
+            "kioskKey": "ohw7nchmuz",
+            "machineName": "9JV8G33",
+            "title": "Подменный Киоск",
+            "description": "Чебаркуль,Шейкмана 86",
+            "configuration": {
+                "title": "Подменный Киоск",
+                "description": "Чебаркуль,Шейкмана 86",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-12-01T05:55:40.099Z",
+            "lastActivityDate": "2023-05-25T11:45:11.347Z",
+            "lastKioskActivityDate": "2023-05-25T11:45:11.347Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "3ce638e154bd30fe4418f9084e1eb56d26050984f6a29c4b8aad519b76482b05"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Microphone (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "637b2cb77116fbe929bb94bf",
+            "kioskKey": "ol4omny1ty",
+            "machineName": "NSK-PC0VPG2H",
+            "title": "22 переговорка с Talk\u0027ом",
+            "description": "Холодный город, Красный проспект 77/1",
+            "configuration": {
+                "title": "22 переговорка с Talk\u0027ом",
+                "description": "Холодный город, Красный проспект 77/1",
+                "calendarMailbox": "nsk-22@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-11-21T07:45:59.335Z",
+            "lastActivityDate": "2023-06-06T16:45:23.003Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:23.003Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Studio(TM) (045e:0811)",
+                    "deviceId": "d36115e016143799697a993cd3bc884a3beee3c5a1173bdf35a142a464a8e43b"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "63775dd0b46a6742999088ab",
+            "kioskKey": "dih3fbl8ru",
+            "machineName": "8CC206129Z",
+            "title": "НВ 302-1",
+            "description": "",
+            "configuration": {
+                "title": "НВ 302-1",
+                "description": "",
+                "calendarMailbox": "t_ismagilov@poldyaev.ru",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-11-18T10:26:24.435Z",
+            "lastActivityDate": "2023-06-05T09:41:05.694Z",
+            "lastKioskActivityDate": "2023-06-05T09:41:05.694Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "A4tech FHD 1080P PC Camera (09da:2696)",
+                    "deviceId": "8fa6facab7a9d76a119c6ed0ddbbc18c3dc4055eba874d4ac6564be4f9765409"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Poly Sync 40 Hands-Free AG Audio) (Bluetooth))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63761a24ec2c7f1edc292086",
+            "kioskKey": "f3x4rozyit",
+            "machineName": "4DXK0D3",
+            "title": "913 Финтех",
+            "description": "Чебаркуль, Черепанова 5, 9й этаж, 913",
+            "configuration": {
+                "title": "913 Финтех",
+                "description": "Чебаркуль, Черепанова 5, 9й этаж, 913",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-11-17T11:25:24.183Z",
+            "lastActivityDate": "2023-06-06T16:44:48.298Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:48.298Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Studio(TM) (045e:0811)",
+                    "deviceId": "475accdd1cf1cfa53caff91cf8189344fc92dcf2fdc8c3f35fbe7526a0153f15"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (Microsoft\u00AE LifeCam Studio(TM)) (045e:0811))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "636cf1fe533d1645feff63b3",
+            "kioskKey": "qdcztjmkvh",
+            "machineName": "2N4VVM3",
+            "title": "НВ801",
+            "description": "2N4VVM3",
+            "configuration": {
+                "title": "НВ801",
+                "description": "2N4VVM3",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-11-10T12:43:42.986Z",
+            "lastActivityDate": "2023-06-05T09:41:22.063Z",
+            "lastKioskActivityDate": "2023-06-05T09:41:22.063Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "41973026789ad24b4078f1682dbf6c898b6a18a3770e2797f6882d80b58b85c6"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "633e75ae040a468edf00f195",
+            "kioskKey": "pc0wdkwh",
+            "machineName": "PC0WDKWH",
+            "title": "702 Большая",
+            "description": "Нижний Новгород 702 Большая 20 месn",
+            "configuration": {
+                "title": "702 Большая",
+                "description": "Нижний Новгород 702 Большая 20 месn",
+                "calendarMailbox": "nnov-702@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-10-06T06:29:02.833Z",
+            "lastActivityDate": "2023-06-06T07:40:53.806Z",
+            "lastKioskActivityDate": "2023-06-06T07:40:53.806Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Microsoft\u00AE LifeCam Studio(TM) (045e:0811)",
+                    "deviceId": "271e80b52e88c43eed9a044ba9f46f7bb0aa748d26ffe5e82e64252a0965d7b6"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (2- Microsoft\u00AE LifeCam Studio(TM)) (045e:0811))",
+                    "deviceId": "default"
+                }
+            ],
+            "conferenceStatus": {
+                "roomName": "fx0suekyxfyjdzfoq49s"
+            }
+        },
+        {
+            "id": "633c0a460d0457aa0fcba51d",
+            "kioskKey": "pc1qr7mj",
+            "machineName": "PC1QR7MJ",
+            "title": "PC1QR7MJ",
+            "description": "",
+            "configuration": {
+                "title": "PC1QR7MJ",
+                "description": "",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "6af6d1c29b0039eee0198a7048a4d64e298bc9b828658b6fec1a45cacf489899"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-10-04T10:26:14.73Z",
+            "lastActivityDate": "2023-06-06T16:44:57.723Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:57.723Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "e781f354a3f37fe15409114aca12dfcd682d9375cf2b7a6a16f26c34627fd898"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (Yeti Stereo Microphone) (046d:0ab7)",
+                    "deviceId": "6af6d1c29b0039eee0198a7048a4d64e298bc9b828658b6fec1a45cacf489899"
+                }
+            ]
+        },
+        {
+            "id": "633bc8eed016501e5cd48433",
+            "kioskKey": "utdwvpubqo",
+            "machineName": "PRM-PC1QR7M4",
+            "title": "Кама",
+            "description": "Переговорная комната, Пермь, Куйбышева 95б, 17 этаж, 1705",
+            "configuration": {
+                "title": "Кама",
+                "description": "Переговорная комната, Пермь, Куйбышева 95б, 17 этаж, 1705",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "autoUpdate": true
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-10-04T05:47:26.233Z",
+            "lastActivityDate": "2023-06-06T16:45:26.793Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:26.793Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "30439995b7e42c1e0b477768d8476a088533df57dce958b31db0c4d1d2f4f82c"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "6324443c5660d9fb45a288bd",
+            "kioskKey": "msk-us00108105",
+            "machineName": "MSK-US00108105",
+            "configuration": {},
+            "isKioskLaunched": true,
+            "createdDate": "2022-09-16T09:39:08.055Z",
+            "lastActivityDate": "2022-12-29T06:00:21.259Z",
+            "lastKioskActivityDate": "2022-12-29T06:00:21.259Z",
+            "version": "2.4.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "632320ba1f5b529b358a6a2f",
+            "kioskKey": "inn-pc0tm6mn",
+            "machineName": "INN-PC0TM6MN",
+            "title": "304-2 Солома",
+            "description": "Иннополис , Университетская 7 304-2 Солома",
+            "configuration": {
+                "title": "304-2 Солома",
+                "description": "Иннополис , Университетская 7 304-2 Солома",
+                "calendarMailbox": "inn-304-2@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "961cdc96f2cd3376eb4c8214fce92162c5f871cd71f0590e0565d02ef0b58862"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-09-15T12:55:22.72Z",
+            "lastActivityDate": "2023-06-05T23:07:51.165Z",
+            "lastKioskActivityDate": "2023-06-05T23:07:51.165Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "Snap Camera",
+                    "deviceId": "2883db4784aaa7fcdef9bc5e1ce356435212cab589d523966c4e3e376e7b40bf"
+                },
+                {
+                    "label": "Microsoft\u00AE LifeCam HD-3000 (045e:0810)",
+                    "deviceId": "aab1017c2dcf7cfa9594a6902f194fa04e5a5f5cd5bdbdf65f52d072dc573cc9"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Настольный микрофон (6- Microsoft\u00AE LifeCam HD-3000) (045e:0810))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63203cb01c022609a02a5462",
+            "kioskKey": "pc0mz3ye",
+            "machineName": "PC0MZ3YE",
+            "configuration": {},
+            "isKioskLaunched": true,
+            "createdDate": "2022-09-13T08:17:52.5Z",
+            "lastActivityDate": "2023-04-22T20:52:53.307Z",
+            "lastKioskActivityDate": "2023-04-22T20:52:53.307Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech HD Webcam C525 (046d:0826)",
+                    "deviceId": "4f3e48b1e6034c815bcc735255ca70a85934559289675c30984a8cd0f1d4ffc1"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (HD Webcam C525) (046d:0826))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Communications - Динамик телефона с отменой эха (Jabra SPEAK 510 USB) (0b0e:0422)",
+                    "deviceId": "communications"
+                }
+            ]
+        },
+        {
+            "id": "63121ba33527c2919e1f7865",
+            "kioskKey": "2hhynh3",
+            "machineName": "2HHYNH3",
+            "title": "2HHYNH3",
+            "description": "",
+            "configuration": {
+                "title": "2HHYNH3",
+                "description": "",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": true,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "fe239a5335c1d65709cfdbf9fa0bb9808556f503a250f17f38e9669510d85341"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-09-02T15:05:07.444Z",
+            "lastActivityDate": "2023-06-05T09:41:27.999Z",
+            "lastKioskActivityDate": "2023-06-05T09:41:27.999Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "fe239a5335c1d65709cfdbf9fa0bb9808556f503a250f17f38e9669510d85341"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (2- Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63121a513527c2919e1f7751",
+            "kioskKey": "8cc206129y",
+            "machineName": "8CC206129Y",
+            "title": "Скрам-зона",
+            "description": "Скрам зона, Чебаркуль, Патрика Воли, 19а, 3 этаж, 307-1",
+            "configuration": {
+                "title": "Скрам-зона",
+                "description": "Скрам зона, Чебаркуль, Патрика Воли, 19а, 3 этаж, 307-1",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-09-02T14:59:29.284Z",
+            "lastActivityDate": "2023-06-05T09:41:30.238Z",
+            "lastKioskActivityDate": "2023-06-05T09:41:30.238Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "222be4ee05bf22a0be8d4bb138f39c0b628d2d6140cc4d25d377bf85ceb57c50"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Poly Sync 40-M Hands-Free AG Audio) (Bluetooth))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "63075f698b6cba71ba93cb83",
+            "kioskKey": "pc0xv3rc",
+            "machineName": "PC0XV3RC",
+            "configuration": {},
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-25T11:39:21.889Z",
+            "lastActivityDate": "2023-06-06T16:45:23.984Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:23.984Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "6cac67864093f0f9b6d62c2d5b55e23a81e556e5d1f7a270c5df584dc0d2eeaf"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Transmit (Plantronics BT300C-M) (047f:0418))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "630714ade46191b96d81d0bb",
+            "kioskKey": "smr-pc1qr7k2",
+            "machineName": "SMR-PC1QR7K2",
+            "title": "Во все тяжкие",
+            "description": "Переговорная комната, Самара, Красноармейская 1",
+            "configuration": {
+                "title": "Во все тяжкие",
+                "description": "Переговорная комната, Самара, Красноармейская 1",
+                "calendarMailbox": "smr-kra-blue@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "communications"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "4fc049148fabf8bfd5e6fee56fc7713205eff4b4756004998afcdc3a3fe2c35c"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-25T06:20:29.228Z",
+            "lastActivityDate": "2023-06-06T16:41:05.23Z",
+            "lastKioskActivityDate": "2023-06-06T16:41:05.23Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "4fc049148fabf8bfd5e6fee56fc7713205eff4b4756004998afcdc3a3fe2c35c"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Yeti Stereo Microphone) (046d:0ab7))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Communications - Микрофон (Logitech Webcam C930e) (046d:0843)",
+                    "deviceId": "communications"
+                }
+            ],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "ok",
+                "microphoneCheckStatus": "ok",
+                "speakersCheckStatus": "warn",
+                "lastCheckDate": "2023-04-27T08:34:42.744Z"
+            }
+        },
+        {
+            "id": "630484ec147df80f91b79d4c",
+            "kioskKey": "8cc20612bl",
+            "machineName": "8CC20612BL",
+            "title": "#Никомунеговори",
+            "description": "Переговорная комната, Чебаркуль, Черепанова 5/4, 7 этаж, 702",
+            "configuration": {
+                "title": "#Никомунеговори",
+                "description": "Переговорная комната, Чебаркуль, Черепанова 5/4, 7 этаж, 702",
+                "calendarMailbox": "pol2-702@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-23T07:42:36.899Z",
+            "lastActivityDate": "2023-06-06T16:45:39.177Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:39.177Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "2c9c6b7df0890254e1bcb37cca9d909439cef53769a55343730c822da84942d7"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (Poly Sync 40-M) (047f:015f))",
+                    "deviceId": "default"
+                }
+            ],
+            "kioskEquipmentCheckStatus": {
+                "cameraCheckStatus": "ok",
+                "microphoneCheckStatus": "ok",
+                "speakersCheckStatus": "ok",
+                "lastCheckDate": "2023-03-16T13:09:44.356Z"
+            }
+        },
+        {
+            "id": "63035210271997d0d4e772a4",
+            "kioskKey": "fxj1s1p8kb",
+            "machineName": "3JHYNH3",
+            "title": "Скрам-зона",
+            "description": "Чебаркуль, Черепанова 5, 3й этаж, 318\nСродных Михаил Юрьевич",
+            "configuration": {
+                "title": "Скрам-зона",
+                "description": "Чебаркуль, Черепанова 5, 3й этаж, 318\nСродных Михаил Юрьевич",
+                "calendarMailbox": "tops@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": true,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "4da6152f16dcb56f276565051883de3de860de18a6007d5b8a1ae129d8f3366e"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-22T09:53:20.189Z",
+            "lastActivityDate": "2023-06-06T16:45:29.675Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:29.675Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "4da6152f16dcb56f276565051883de3de860de18a6007d5b8a1ae129d8f3366e"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "62fb8037d012209c2b9a7d45",
+            "kioskKey": "9zmvrh3",
+            "machineName": "9ZMVRH3",
+            "title": "НВ К17",
+            "description": "Чебаркуль, Патрика Воли 19а, 2 этаж, кабинет К17",
+            "configuration": {
+                "title": "НВ К17",
+                "description": "Чебаркуль, Патрика Воли 19а, 2 этаж, кабинет К17",
+                "calendarMailbox": "rs-k17-talk@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "createdDate": "2022-08-16T11:32:07.977Z",
+            "lastActivityDate": "2023-06-01T09:16:51.81Z",
+            "lastKioskActivityDate": "2023-06-01T09:16:51.81Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "OBS Virtual Camera",
+                    "deviceId": "1f9d298893690b673e708013654377e8914ad9b93df2ec21e751c0e681527f1a"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "62f20025ba7b33a42d534fd8",
+            "kioskKey": "usdo8souva",
+            "machineName": "PC10XZ7Y",
+            "title": "Скрам зона разработки онлайн-продаж",
+            "description": "скрам зона разработки онлайн-продаж, Чебаркуль, Черепанова 5, 8 этаж, 813 кабинет",
+            "configuration": {
+                "title": "Скрам зона разработки онлайн-продаж",
+                "description": "скрам зона разработки онлайн-продаж, Чебаркуль, Черепанова 5, 8 этаж, 813 кабинет",
+                "calendarMailbox": "selfservice-tv@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "002d4d1ee0c234655edc31f282f00dc7f5d9b9e86e737147fadd661a5c21c45f"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "e1a0656e97e087ad57074daa61662f466a74981e6664e51abe62675a3e08eaa6"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-09T06:35:17.564Z",
+            "lastActivityDate": "2023-06-06T16:43:56.562Z",
+            "lastKioskActivityDate": "2023-06-06T16:43:56.562Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "HD Pro Webcam C920 (046d:0892)",
+                    "deviceId": "5f2279600ad1242e4c9b1d558a44deb4f7b171d562d078d237f0856a94fe1b91"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Yeti Stereo Microphone) (046d:0ab7))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (HD Pro Webcam C920) (046d:0892)",
+                    "deviceId": "597a7069423bf9bc8ea92d7495e227b1a4f89635433e4a057bf7fb54cf8746f8"
+                }
+            ]
+        },
+        {
+            "id": "62eb8946ba58e54ab515ff8f",
+            "kioskKey": "nsk-pc10xz7f",
+            "machineName": "NSK-PC10XZ7F",
+            "title": "NSK-PC10XZ7F",
+            "description": "",
+            "configuration": {
+                "title": "NSK-PC10XZ7F",
+                "description": "",
+                "calendarMailbox": "nsk.sib@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-04T08:54:30.016Z",
+            "lastActivityDate": "2023-06-06T16:44:29.307Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:29.307Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "86bf760bc5b6f33897305a0418454f977d2ebf2eadc31b01d523a5db1bad5c60"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Anker PowerConf) (10d6:2048))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (2- Logitech Webcam C930e) (046d:0843)",
+                    "deviceId": "c6d74736081d6ee4d3e54a60ce073d6ae7e729416d31676868ede2673760f9a1"
+                }
+            ]
+        },
+        {
+            "id": "62e9f6efd87de7c0bfba86f3",
+            "kioskKey": "msk-pc0yangn",
+            "machineName": "MSK-PC0YANGN",
+            "configuration": {},
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-08-03T04:17:51.669Z",
+            "lastActivityDate": "2023-06-06T16:45:19.579Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:19.579Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "a9986f04849092b9931237af08aa7e7a35b803f92f33c5f9bd83417fcd954ac7"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (Jabra SPEAK 510 USB) (0b0e:0422))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Микрофон (Logitech Webcam C930e) (046d:0843)",
+                    "deviceId": "b971129a5a6e4dc1c580b006b53e19ff74538b7ed519e91b47fba51025b54e68"
+                }
+            ]
+        },
+        {
+            "id": "62e3cf25673396d0d37ad137",
+            "kioskKey": "msk-pc189eh9",
+            "machineName": "MSK-PC189EH9",
+            "configuration": {},
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-29T12:14:29.317Z",
+            "lastActivityDate": "2023-06-06T16:45:01.454Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:01.454Z",
+            "version": "2.4.1",
+            "cameraDevices": [
+                {
+                    "label": "AVer VB130 (2574:0a10)",
+                    "deviceId": "0a7ff568f9deb5cb1ad823bf859f5bc8371c971c07339d6ab89baa5202af8108"
+                },
+                {
+                    "label": "AVer Virtual Camera",
+                    "deviceId": "26fbc05b90e089fe82402ccc5dfa3e780962e4cc6b970362266eaf2b528d8597"
+                },
+                {
+                    "label": "AVer USB VCam",
+                    "deviceId": "2816110b96fc4880a594c6614f7b02733ed5241dac6538e175dba4037c523fe7"
+                },
+                {
+                    "label": "OBS Virtual Camera",
+                    "deviceId": "e5625dd88e6c396c26be74083d57e5fa7d713b811f5fc361d5c8040fee9e35c3"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Динамик телефона с отменой эха (AVer VB130) (2574:0a11))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "62e27bb3153a7636cf2da814",
+            "kioskKey": "msk-pc189eh0",
+            "machineName": "MSK-PC189EH0",
+            "title": "5 Переговорная",
+            "description": "1-й Красногвардейский пр-д 15",
+            "configuration": {
+                "title": "5 Переговорная",
+                "description": "1-й Красногвардейский пр-д 15",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-28T12:06:11.913Z",
+            "lastActivityDate": "2023-06-06T16:40:48.502Z",
+            "lastKioskActivityDate": "2023-06-06T16:40:48.502Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "62e267e1153a7636cf2d9d26",
+            "kioskKey": "msk-pc189ehv",
+            "machineName": "MSK-PC189EHV",
+            "title": "1 Переговорная",
+            "description": "1-й Красногвардейский пр-д 15",
+            "configuration": {
+                "title": "1 Переговорная",
+                "description": "1-й Красногвардейский пр-д 15",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-28T10:41:37.963Z",
+            "lastActivityDate": "2023-06-06T16:45:55.347Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:55.347Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "62e241d65376eb97edebef1f",
+            "kioskKey": "msk-pc189eh7",
+            "machineName": "MSK-PC189EH7",
+            "title": "2 Переговорная",
+            "description": "Москва,  1-й Красногвардейский пр-д 15",
+            "configuration": {
+                "title": "2 Переговорная",
+                "description": "Москва,  1-й Красногвардейский пр-д 15",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-28T07:59:18.159Z",
+            "lastActivityDate": "2023-06-06T16:43:43.831Z",
+            "lastKioskActivityDate": "2023-06-06T16:43:43.831Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech BRIO (046d:085e)",
+                    "deviceId": "e7f6ed0addff8854916b22502c660d428c287c558f6996f5a5ab706ebf641f62"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Microphone (Logitech BRIO) (046d:085e))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "62d8e52f3e063700a4936271",
+            "kioskKey": "ms2010190022",
+            "machineName": "MS2010190022",
+            "title": "НВ 605",
+            "description": "Переговорная комната, Чебаркуль, Патрика Воли, 65, 5й этаж, 605",
+            "configuration": {
+                "title": "НВ 605",
+                "description": "Переговорная комната, Чебаркуль, Патрика Воли, 65, 5й этаж, 605",
+                "calendarMailbox": "rs65-605@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-21T05:33:35.715Z",
+            "lastActivityDate": "2023-06-06T16:41:53.309Z",
+            "lastKioskActivityDate": "2023-06-06T16:41:53.309Z",
+            "version": "2.6.1",
+            "cameraDevices": [],
+            "microphoneDevices": []
+        },
+        {
+            "id": "62d7d797e94c7f9fb3362849",
+            "kioskKey": "pc0mz3x0",
+            "machineName": "PC0MZ3X0",
+            "title": "НВ 912",
+            "description": "Переговорная комната, Чебаркуль, Патрика Воли, 19а, 9й этаж, 912",
+            "configuration": {
+                "title": "НВ 912",
+                "description": "Переговорная комната, Чебаркуль, Патрика Воли, 19а, 9й этаж, 912",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-20T10:23:19.422Z",
+            "lastActivityDate": "2023-06-06T16:45:24.983Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:24.983Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "b944b946cd219abd0a01c09e891b713ad00f05dfb3dde59f196edee2241b789f"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (Logitech Webcam C930e) (046d:0843))",
+                    "deviceId": "default"
+                }
+            ]
+        },
+        {
+            "id": "62d71ba7e94c7f9fb335f377",
+            "kioskKey": "pc0mz3z8",
+            "machineName": "PC0MZ3Z8",
+            "title": "Пользовательский ПК",
+            "description": "Патрика Воли, 19а, 2й этаж, 218",
+            "configuration": {
+                "title": "Пользовательский ПК",
+                "description": "Патрика Воли, 19а, 2й этаж, 218",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-19T21:01:27.201Z",
+            "lastActivityDate": "2023-06-06T16:45:25.586Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:25.586Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "USB Video Device (046d:0809)",
+                    "deviceId": "b3f37392f7f09e5f9ef861805117b01c3133c9f87fe410cae21a70cccb1e0841"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон (USB Audio Device) (046d:0809))",
+                    "deviceId": "default"
+                },
+                {
+                    "label": "Communications - Transmit (Plantronics BT300C-M) (047f:0418)",
+                    "deviceId": "communications"
+                }
+            ]
+        },
+        {
+            "id": "62d138ae556666bbae949e97",
+            "kioskKey": "pc1mhbff",
+            "machineName": "PC1MHBFF",
+            "title": "Ассамблея",
+            "description": "Переговорная комната, Уфа, 8 Марта 42/3, 4 этаж, 11а",
+            "configuration": {
+                "title": "Ассамблея",
+                "description": "Переговорная комната, Уфа, 8 Марта 42/3, 4 этаж, 11а",
+                "calendarMailbox": "ufa-50let-11a@poldyaev.ru",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-15T09:51:42.633Z",
+            "lastActivityDate": "2023-06-06T16:45:01.352Z",
+            "lastKioskActivityDate": "2023-06-06T16:45:01.352Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "86445dee257c1ff21bdb35d0b792290f2826a706cd5cd1a96e2cc6d340e87cdc"
+                }
+            ],
+            "microphoneDevices": []
+        },
+        {
+            "id": "62cfe75ed72799fd787407ac",
+            "kioskKey": "8cc20612bn",
+            "machineName": "8CC20612BN",
+            "title": "Пользовательский ПК",
+            "description": "Чебаркуль, Патрика Воли, 19а, 3й этаж, 313-1",
+            "configuration": {
+                "title": "Пользовательский ПК",
+                "description": "Чебаркуль, Патрика Воли, 19а, 3й этаж, 313-1",
+                "calendarMailbox": "",
+                "autoLaunch": true,
+                "canClose": true,
+                "autoUpdate": true,
+                "audio": {
+                    "agc": true,
+                    "ns": false,
+                    "startMuted": false,
+                    "preferredMicId": "default"
+                },
+                "video": {
+                    "wideCamera": true,
+                    "startMuted": false,
+                    "preferredCameraId": "default"
+                },
+                "useSecondScreenForScreenShare": true,
+                "updatesChannel": "latest"
+            },
+            "isKioskLaunched": true,
+            "isLaunched": true,
+            "createdDate": "2022-07-14T09:52:30.338Z",
+            "lastActivityDate": "2023-06-06T16:44:59.391Z",
+            "lastKioskActivityDate": "2023-06-06T16:44:59.391Z",
+            "version": "2.6.1",
+            "cameraDevices": [
+                {
+                    "label": "Logitech Webcam C930e (046d:0843)",
+                    "deviceId": "b569a84596b2b8d89f2588f60baf7e39ada2f6b6696256b87cb6d63dbfb5cf8b"
+                }
+            ],
+            "microphoneDevices": [
+                {
+                    "label": "Как в системе (Default - Микрофон гарнитуры (Poly Sync 40-M Hands-Free AG Audio) (Bluetooth))",
+                    "deviceId": "default"
+                }
+            ]
+        }
+    ]
+}

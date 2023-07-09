@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from './KioskOptions.module.css'
 import {
   Link,
   Redirect,
   Route,
   Switch,
+  useHistory,
   useLocation,
   useParams,
   useRouteMatch,
@@ -21,8 +22,27 @@ const KioskOptions: React.FC = () => {
   const { path, url } = useRouteMatch()
   const location = useLocation()
   const currentLocation = location.pathname.split('/')
-  const isActive = currentLocation[currentLocation.length - 1]
+  const activeTab = currentLocation[currentLocation.length - 1]
   const [isError, setIsError] = React.useState(false)
+  const [isMobile, setIsMobile] = React.useState(window.outerWidth < 480)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.outerWidth < 480)
+    }
+    window.addEventListener('resize', handleResize)
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
+  const modalRef = useRef(null)
+  const history = useHistory()
+  const back = (e: any) => {
+    if (e.target === modalRef.current) {
+      history.push('/kiosks')
+    }
+  }
 
   useEffect(() => {
     async function kiosk() {
@@ -35,6 +55,7 @@ const KioskOptions: React.FC = () => {
     }
     kiosk()
   }, [])
+
   if (isError) {
     return <h1>Ошибка загрузки</h1>
   }
@@ -42,25 +63,18 @@ const KioskOptions: React.FC = () => {
     return <h1>Загружается</h1>
   } else {
     return (
-      <div className={styles.wrapper}>
+      <div onClick={back} ref={modalRef} className={styles.modal}>
         <div className={styles.menu}>
           <div className={styles.headerMenu}>
-            <Link to={`${url}/NavigationKiosk`}>
+            <Link to={`${url}/navigation`}>
               <img src={arrow} alt='arrow_back' className={styles.arrowLeft} />
             </Link>
             <p className={styles.name_header}>Настройки: {data.title || data.machineName}</p>
             <Link to={`/kiosks`} className={styles.close}></Link>
           </div>
-          <div className={styles.navMobile}>
-            <Switch>
-              <Route path={`${path}/NavigationKiosk`}>
-                <NavigationKiosk isActive={isActive} url={url} />
-              </Route>
-            </Switch>
-          </div>
           <div className={styles.info_wrapper}>
             <div className={styles.navDesktop}>
-              <NavigationKiosk isActive={isActive} url={url} />
+              <NavigationKiosk activeTab={activeTab} url={url} />
             </div>
             <div className={styles.info_right}>
               <Switch>
@@ -82,7 +96,16 @@ const KioskOptions: React.FC = () => {
                 <Route path={`${path}/other`}>
                   <div>other</div>
                 </Route>
-                <Redirect from={`${path}/`} to={`${path}/common`} />
+                {isMobile ? (
+                  <React.Fragment>
+                    <Route path={`${path}/navigation`}>
+                      <NavigationKiosk activeTab={activeTab} url={url} />
+                    </Route>
+                    <Redirect from={`${path}/`} to={`${path}/navigation`} />
+                  </React.Fragment>
+                ) : (
+                  <Redirect from={`${path}/`} to={`${path}/common`} />
+                )}
               </Switch>
             </div>
           </div>

@@ -1,20 +1,26 @@
 import { Kiosk } from "./types"
+import testKiosk from "./testKiosk.json"
 
-
-
-export default async function getData(props: string) {
-  const data = await fetch(`https://zb7zafqxjh.api.quickmocker.com/${props}`)
-  const content = await data.json()
-  return content
+async function getData(props: string) {
+  const data = getLocalData(props)
+  return data
 }
 
+function getLocalData(props: string) {
+  return testKiosk;
+}
 
+async  function getServerData(props: string) {
+    const data = await fetch(`https://othbajv2fw.api.quickmocker.com/${props}`)
+    const content = await data.json()
+    return content
+}
 
 export function getKiosks():Promise<{ kiosks: Kiosk[] }> {
   return getData(`kiosks`)
 }
 
-export async function getKiosk(id: string): Promise<Kiosk> {
+export async function getKiosk(id: string): Promise<Kiosk | undefined> {
   const data = await getData('kiosks'); 
   return data.kiosks.find((kiosk: { id: string }) => kiosk.id === id)
 }
