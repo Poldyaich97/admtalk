@@ -2,31 +2,50 @@ import React from 'react'
 import styles from './NavigationKiosk.module.css'
 import LeftBtn from '../LeftBtn/LeftBtn'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const NavigationKiosk: React.FC<any> = (props) => {
+interface NavigationKioskProps {
+  activeTab: string
+  url: string
+}
+
+const NavigationKiosk: React.FC<NavigationKioskProps> = (props) => {
   return (
     <div className={`${styles.info_left}`}>
       <LeftBtn
-        isActive={props.isActive}
+        activeTab={props.activeTab}
         section='common'
         url={`${props.url}/common`}
         name='Общие'
       />
-      <LeftBtn isActive={props.isActive} section='audio' url={`${props.url}/audio`} name='Аудио' />
-      <LeftBtn isActive={props.isActive} section='video' url={`${props.url}/video`} name='Видео' />
       <LeftBtn
-        isActive={props.isActive}
+        activeTab={props.activeTab}
+        section='audio'
+        url={`${props.url}/audio`}
+        name='Аудио'
+      />
+      <LeftBtn
+        activeTab={props.activeTab}
+        section='video'
+        url={`${props.url}/video`}
+        name='Видео'
+      />
+      <LeftBtn
+        activeTab={props.activeTab}
         section='devices'
         url={`${props.url}/devices`}
         name='Устройства'
       />
       <LeftBtn
-        isActive={props.isActive}
+        activeTab={props.activeTab}
         section='updates'
         url={`${props.url}/updates`}
         name='Обновление'
       />
-      <LeftBtn isActive={props.isActive} section='other' url={`${props.url}/other`} name='Прочее' />
+      <LeftBtn
+        activeTab={props.activeTab}
+        section='other'
+        url={`${props.url}/other`}
+        name='Прочее'
+      />
     </div>
   )
 }

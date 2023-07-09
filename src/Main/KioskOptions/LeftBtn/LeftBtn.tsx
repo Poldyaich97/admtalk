@@ -8,7 +8,7 @@ const LeftBtn: React.FC<BtnProps> = (props) => {
   return (
     <Link
       className={`${styles.left_btn} + ${
-        props.isActive === props.section ? styles.btn_active : ''
+        props.activeTab === props.section ? styles.btn_active : ''
       }`}
       to={props.url}
     >

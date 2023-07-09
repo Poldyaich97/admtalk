@@ -1,11 +1,7 @@
 import React from 'react'
 import { Link, useRouteMatch } from 'react-router-dom'
 import styles from './/Card.module.css'
-import { Kiosk } from '../types'
-
-interface CardProps {
-  data: Kiosk
-}
+import { CardProps } from '../types'
 
 const Card: React.FC<CardProps> = (props) => {
   const data = props.data
