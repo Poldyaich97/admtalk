@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/admtalk/static/css/main.2f4c75fb.css",
-    "main.js": "/admtalk/static/js/main.0508d47b.js",
+    "main.css": "/admtalk/static/css/main.1f247b2d.css",
+    "main.js": "/admtalk/static/js/main.964d73c7.js",
     "index.html": "/admtalk/index.html",
     "static/media/arrow.svg": "/admtalk/static/media/arrow.229aab7f04f473ed18d0dd85047580b7.svg",
-    "main.2f4c75fb.css.map": "/admtalk/static/css/main.2f4c75fb.css.map",
-    "main.0508d47b.js.map": "/admtalk/static/js/main.0508d47b.js.map"
+    "main.1f247b2d.css.map": "/admtalk/static/css/main.1f247b2d.css.map",
+    "main.964d73c7.js.map": "/admtalk/static/js/main.964d73c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f4c75fb.css",
-    "static/js/main.0508d47b.js"
+    "static/css/main.1f247b2d.css",
+    "static/js/main.964d73c7.js"
   ]
 }
